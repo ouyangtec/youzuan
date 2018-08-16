@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>我的资产</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <script src="__PUBLIC__/Home/js/rem.js"></script>
+    <!-- <script src="js/mui.min.js"></script> -->
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/reset.css" />
+    <link href="__PUBLIC__/Home/css/mui.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/main.css" />
+    <link rel="stylesheet" href="__PUBLIC__/Home/iconfont/iconfont.css" />
+    <script type="text/javascript" src="__PUBLIC__/Home/js/jquery-3.3.1.js"></script>
+    <script src="__PUBLIC__/Home/js/highcharts.js"></script>
+    <script src="__PUBLIC__/layer/layer.js"></script>
+    <script src="__PUBLIC__/Home/js/main.js"></script>
+</head>
+<body>
+    <header class="common-header">
+        <a href="javaScript:history.go(-1)" class="back">
+            <i class="iconfont">&#xe60f;</i>
+        </a>
+        <span>我的资产</span>
+    </header>
+    <div class="mui-content">
+        <table class="main-table">
+            <thead>
+            <tr>
+                <th class="first"></th>
+                <th >币种</th>
+                <th>可用</th>
+                <th>冻结</th>
+                <th class="last">总计</th>
+            </tr>
+            </thead>
+            <tbody>
+            <volist name="coinList" id="vo">
+                <tr>
+                    <td class="first"><img src="/Upload/coin/{$vo.img}" width="20px"  alt=""></td>
+                    <td>{$vo.title}</td>
+                    <td>{$vo.xnb|NumToStr}</td>
+                    <td>{$vo.xnbd|NumToStr}</td>
+                    <td class="last">{$vo.xnbz|NumToStr}</td>
+                </tr>
+            </volist>
+
+
+            </tbody>
+        </table>
+        <div class="Pagination">{$page}</div>
+        <!--<volist name="coinList" id="v">
+            <div class="asset-box">
+                <div class="asset-list">
+                    <div class="pic-box"><img src="/upload/coin/{$v.img}" alt=""></div>
+                    <span class="asset-num jin">{$v.xnb}</span>
+                </div>
+                <h6></h6>
+            </div>
+        </volist>-->
+         <!--<div class="asset-box asset-box1">
+            <div class="asset-list">
+                <div class="pic-box"><img src="images/diamond-icon1.png" alt=""></div>
+                <span class="asset-num lan">100个</span>
+            </div>
+            <h6>蓝钻数量</h6>
+        </div>-->
+    </div>
+</body>

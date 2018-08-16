@@ -1,0 +1,1988 @@
+[ 2018-07-09T09:26:58+08:00 ] 127.0.0.1 /admin/login?btchanges=linsion
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-09T09:26:59+08:00 ] 127.0.0.1 /Admin/Verify/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-09T09:27:07+08:00 ] 127.0.0.1 /Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `btchanges_admin` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-07-09T09:27:11+08:00 ] 127.0.0.1 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_version` [ RunTime:0.0130s ]
+SQL: SELECT `name` FROM `btchanges_version` WHERE `status` = 0 ORDER BY name desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `btchanges_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `btchanges_menu` WHERE ( url like 'Index/index%' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0120s ]
+SQL: SELECT `id`,`pid`,`title` FROM `btchanges_menu` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  `group` FROM `btchanges_menu` WHERE ( pid = 1 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`url` FROM `btchanges_menu` WHERE `pid` = 1 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '系统' AND `pid` = 1 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` LIMIT 1   [ RunTime:0.1300s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0120s ]
+SQL: SELECT SUM(cny) AS tp_sum FROM `btchanges_user_coin` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(cnyd) AS tp_sum FROM `btchanges_user_coin` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_trade_log` [ RunTime:0.0130s ]
+SQL: SELECT SUM(mum) AS tp_sum FROM `btchanges_trade_log` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_article` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_mycz` [ RunTime:0.0140s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1528560000 AND `addtime` < 1528646400  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_mytx` [ RunTime:0.0140s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1528560000 AND `addtime` < 1528646400  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1528646400 AND `addtime` < 1528732800  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1528646400 AND `addtime` < 1528732800  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1528732800 AND `addtime` < 1528819200  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1528732800 AND `addtime` < 1528819200  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1528819200 AND `addtime` < 1528905600  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1528819200 AND `addtime` < 1528905600  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1528905600 AND `addtime` < 1528992000  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1528905600 AND `addtime` < 1528992000  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1528992000 AND `addtime` < 1529078400  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1528992000 AND `addtime` < 1529078400  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1529078400 AND `addtime` < 1529164800  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1529078400 AND `addtime` < 1529164800  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1529164800 AND `addtime` < 1529251200  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1529164800 AND `addtime` < 1529251200  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1529251200 AND `addtime` < 1529337600  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1529251200 AND `addtime` < 1529337600  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1529337600 AND `addtime` < 1529424000  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1529337600 AND `addtime` < 1529424000  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1529424000 AND `addtime` < 1529510400  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1529424000 AND `addtime` < 1529510400  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1529510400 AND `addtime` < 1529596800  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1529510400 AND `addtime` < 1529596800  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1529596800 AND `addtime` < 1529683200  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1529596800 AND `addtime` < 1529683200  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1529683200 AND `addtime` < 1529769600  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1529683200 AND `addtime` < 1529769600  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1529769600 AND `addtime` < 1529856000  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1529769600 AND `addtime` < 1529856000  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1529856000 AND `addtime` < 1529942400  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1529856000 AND `addtime` < 1529942400  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1529942400 AND `addtime` < 1530028800  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1529942400 AND `addtime` < 1530028800  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1530028800 AND `addtime` < 1530115200  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1530028800 AND `addtime` < 1530115200  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1530115200 AND `addtime` < 1530201600  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1530115200 AND `addtime` < 1530201600  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1530201600 AND `addtime` < 1530288000  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1530201600 AND `addtime` < 1530288000  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1530288000 AND `addtime` < 1530374400  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1530288000 AND `addtime` < 1530374400  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1530374400 AND `addtime` < 1530460800  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1530374400 AND `addtime` < 1530460800  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1530460800 AND `addtime` < 1530547200  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1530460800 AND `addtime` < 1530547200  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1530547200 AND `addtime` < 1530633600  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1530547200 AND `addtime` < 1530633600  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1530633600 AND `addtime` < 1530720000  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1530633600 AND `addtime` < 1530720000  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1530720000 AND `addtime` < 1530806400  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1530720000 AND `addtime` < 1530806400  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1530806400 AND `addtime` < 1530892800  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1530806400 AND `addtime` < 1530892800  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1530892800 AND `addtime` < 1530979200  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1530892800 AND `addtime` < 1530979200  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1530979200 AND `addtime` < 1531065600  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1530979200 AND `addtime` < 1531065600  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1531065600 AND `addtime` < 1531152000  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1531065600 AND `addtime` < 1531152000  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1528507628 AND `addtime` < 1528594028  ) LIMIT 1   [ RunTime:0.2220s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1528594028 AND `addtime` < 1528680428  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1528680428 AND `addtime` < 1528766828  ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1528766828 AND `addtime` < 1528853228  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1528853228 AND `addtime` < 1528939628  ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1528939628 AND `addtime` < 1529026028  ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1529026028 AND `addtime` < 1529112428  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1529112428 AND `addtime` < 1529198828  ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1529198828 AND `addtime` < 1529285228  ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1529285228 AND `addtime` < 1529371628  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1529371628 AND `addtime` < 1529458028  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1529458028 AND `addtime` < 1529544428  ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1529544428 AND `addtime` < 1529630828  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1529630828 AND `addtime` < 1529717228  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1529717228 AND `addtime` < 1529803628  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1529803628 AND `addtime` < 1529890028  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1529890028 AND `addtime` < 1529976428  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1529976428 AND `addtime` < 1530062828  ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1530062828 AND `addtime` < 1530149228  ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1530149228 AND `addtime` < 1530235628  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1530235628 AND `addtime` < 1530322028  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1530322028 AND `addtime` < 1530408428  ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1530408428 AND `addtime` < 1530494828  ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1530494828 AND `addtime` < 1530581228  ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1530581228 AND `addtime` < 1530667628  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1530667628 AND `addtime` < 1530754028  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1530754028 AND `addtime` < 1530840428  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1530840428 AND `addtime` < 1530926828  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1530926828 AND `addtime` < 1531013228  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1531013228 AND `addtime` < 1531099628  ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1531099628 AND `addtime` < 1531186028  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1531186028 AND `addtime` < 1531272428  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1531272428 AND `addtime` < 1531358828  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1531358828 AND `addtime` < 1531445228  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1531445228 AND `addtime` < 1531531628  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1531531628 AND `addtime` < 1531618028  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1531618028 AND `addtime` < 1531704428  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1531704428 AND `addtime` < 1531790828  ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1531790828 AND `addtime` < 1531877228  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1531877228 AND `addtime` < 1531963628  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1531963628 AND `addtime` < 1532050028  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1532050028 AND `addtime` < 1532136428  ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1532136428 AND `addtime` < 1532222828  ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1532222828 AND `addtime` < 1532309228  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1532309228 AND `addtime` < 1532395628  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1532395628 AND `addtime` < 1532482028  ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1532482028 AND `addtime` < 1532568428  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1532568428 AND `addtime` < 1532654828  ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1532654828 AND `addtime` < 1532741228  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1532741228 AND `addtime` < 1532827628  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1532827628 AND `addtime` < 1532914028  ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1532914028 AND `addtime` < 1533000428  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1533000428 AND `addtime` < 1533086828  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1533086828 AND `addtime` < 1533173228  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1533173228 AND `addtime` < 1533259628  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1533259628 AND `addtime` < 1533346028  ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1533346028 AND `addtime` < 1533432428  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1533432428 AND `addtime` < 1533518828  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1533518828 AND `addtime` < 1533605228  ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1533605228 AND `addtime` < 1533691628  ) LIMIT 1   [ RunTime:0.0430s ]
+NOTIC: [8] Undefined index: cztx D:\www\youzuan\Application\Admin\Controller\IndexController.class.php 第 60 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 1 行.
+NOTIC: [8] Undefined variable: versionUp D:\www\youzuan\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 1 行.
+SQL: select version() as v; [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-09T09:27:15+08:00 ] 127.0.0.1 /Admin/Finance/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_version` [ RunTime:0.0120s ]
+SQL: SELECT `name` FROM `btchanges_version` WHERE `status` = 0 ORDER BY name desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `btchanges_menu` WHERE ( url like 'Finance/index%' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0130s ]
+SQL: SELECT `id`,`pid`,`title` FROM `btchanges_menu` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  `group` FROM `btchanges_menu` WHERE ( pid = 4 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`url` FROM `btchanges_menu` WHERE `pid` = 4 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '财务' AND `pid` = 4 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '提现' AND `pid` = 4 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_finance` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_finance` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `btchanges_finance` ORDER BY id desc LIMIT 0,15   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0130s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101628 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: seek D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101628 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: seek D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tradelogreward D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tradelogreward D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tradelogreward D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tradelogreward D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined variable: versionUp D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: field D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: name D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-09T09:27:24+08:00 ] 127.0.0.1 /Admin/Finance/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_version` [ RunTime:0.0130s ]
+SQL: SELECT `name` FROM `btchanges_version` WHERE `status` = 0 ORDER BY name desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `btchanges_menu` WHERE ( url like 'Finance/index%' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0130s ]
+SQL: SELECT `id`,`pid`,`title` FROM `btchanges_menu` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  `group` FROM `btchanges_menu` WHERE ( pid = 4 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`url` FROM `btchanges_menu` WHERE `pid` = 4 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '财务' AND `pid` = 4 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '提现' AND `pid` = 4 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_finance` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_finance` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `btchanges_finance` ORDER BY id desc LIMIT 0,15   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0130s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101628 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: seek D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101628 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: seek D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tradelogreward D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tradelogreward D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tradelogreward D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tradelogreward D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined variable: versionUp D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: field D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: name D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-09T09:33:10+08:00 ] 127.0.0.1 /Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_version` [ RunTime:0.0140s ]
+SQL: SELECT `name` FROM `btchanges_version` WHERE `status` = 0 ORDER BY name desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `btchanges_menu` WHERE ( url like 'User/index%' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0140s ]
+SQL: SELECT `id`,`pid`,`title` FROM `btchanges_menu` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  `group` FROM `btchanges_menu` WHERE ( pid = 3 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`url` FROM `btchanges_menu` WHERE `pid` = 3 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '用户' AND `pid` = 3 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '前台用户管理' AND `pid` = 3 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '用户配置' AND `pid` = 3 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '后台用户管理' AND `pid` = 3 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` LIMIT 1   [ RunTime:0.0230s ]
+SQL: SELECT * FROM `btchanges_user` ORDER BY id desc LIMIT 0,15   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 116 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 116 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 96 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 116 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 116 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 1 行.
+NOTIC: [8] Undefined variable: versionUp D:\www\youzuan\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 1 行.
+NOTIC: [8] Undefined index: status D:\www\youzuan\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 1 行.
+NOTIC: [8] Undefined index: status D:\www\youzuan\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 1 行.
+NOTIC: [8] Undefined index: field D:\www\youzuan\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 1 行.
+NOTIC: [8] Undefined index: field D:\www\youzuan\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 1 行.
+NOTIC: [8] Undefined index: field D:\www\youzuan\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 1 行.
+NOTIC: [8] Undefined index: name D:\www\youzuan\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-07-09T09:33:15+08:00 ] 127.0.0.1 /Admin/User/coin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_version` [ RunTime:0.0140s ]
+SQL: SELECT `name` FROM `btchanges_version` WHERE `status` = 0 ORDER BY name desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `btchanges_menu` WHERE ( url like 'User/coin%' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0140s ]
+SQL: SELECT `id`,`pid`,`title` FROM `btchanges_menu` WHERE ( id=285 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title` FROM `btchanges_menu` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  `group` FROM `btchanges_menu` WHERE ( pid = 3 )  [ RunTime:0.0020s ]
+SQL: SELECT `id`,`url` FROM `btchanges_menu` WHERE `pid` = 3 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '用户' AND `pid` = 3 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '前台用户管理' AND `pid` = 3 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '用户配置' AND `pid` = 3 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '后台用户管理' AND `pid` = 3 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user_coin` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `btchanges_user_coin` ORDER BY id desc LIMIT 0,15   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0200s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101628 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101624 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101623 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101618 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101613 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101612 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101611 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101610 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101608 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101607 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101605 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101604 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101603 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101602 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\1f7880e7f9b51d5d83d71228a906a055.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\1f7880e7f9b51d5d83d71228a906a055.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\1f7880e7f9b51d5d83d71228a906a055.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\1f7880e7f9b51d5d83d71228a906a055.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\1f7880e7f9b51d5d83d71228a906a055.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\1f7880e7f9b51d5d83d71228a906a055.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\1f7880e7f9b51d5d83d71228a906a055.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\1f7880e7f9b51d5d83d71228a906a055.php 第 1 行.
+NOTIC: [8] Undefined variable: versionUp D:\www\youzuan\Runtime\Cache\Admin\1f7880e7f9b51d5d83d71228a906a055.php 第 1 行.
+NOTIC: [8] Undefined index: field D:\www\youzuan\Runtime\Cache\Admin\1f7880e7f9b51d5d83d71228a906a055.php 第 19 行.
+NOTIC: [8] Undefined index: name D:\www\youzuan\Runtime\Cache\Admin\1f7880e7f9b51d5d83d71228a906a055.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-07-09T09:35:02+08:00 ] 127.0.0.1 /Admin/User/coin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_version` [ RunTime:0.0210s ]
+SQL: SELECT `name` FROM `btchanges_version` WHERE `status` = 0 ORDER BY name desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `btchanges_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `btchanges_menu` WHERE ( url like 'User/coin%' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0130s ]
+SQL: SELECT `id`,`pid`,`title` FROM `btchanges_menu` WHERE ( id=285 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title` FROM `btchanges_menu` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  `group` FROM `btchanges_menu` WHERE ( pid = 3 )  [ RunTime:0.0020s ]
+SQL: SELECT `id`,`url` FROM `btchanges_menu` WHERE `pid` = 3 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '用户' AND `pid` = 3 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '前台用户管理' AND `pid` = 3 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '用户配置' AND `pid` = 3 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '后台用户管理' AND `pid` = 3 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user_coin` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `btchanges_user_coin` ORDER BY id desc LIMIT 0,15   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0140s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101628 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101624 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101623 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101618 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101613 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101612 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101611 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101610 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101608 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101607 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101605 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101604 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101603 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101602 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\1f7880e7f9b51d5d83d71228a906a055.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\1f7880e7f9b51d5d83d71228a906a055.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\1f7880e7f9b51d5d83d71228a906a055.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\1f7880e7f9b51d5d83d71228a906a055.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\1f7880e7f9b51d5d83d71228a906a055.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\1f7880e7f9b51d5d83d71228a906a055.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\1f7880e7f9b51d5d83d71228a906a055.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\1f7880e7f9b51d5d83d71228a906a055.php 第 1 行.
+NOTIC: [8] Undefined variable: versionUp D:\www\youzuan\Runtime\Cache\Admin\1f7880e7f9b51d5d83d71228a906a055.php 第 1 行.
+NOTIC: [8] Undefined index: field D:\www\youzuan\Runtime\Cache\Admin\1f7880e7f9b51d5d83d71228a906a055.php 第 19 行.
+NOTIC: [8] Undefined index: name D:\www\youzuan\Runtime\Cache\Admin\1f7880e7f9b51d5d83d71228a906a055.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-09T10:06:15+08:00 ] 127.0.0.1 /Admin/User/coin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_version` [ RunTime:0.0130s ]
+SQL: SELECT `name` FROM `btchanges_version` WHERE `status` = 0 ORDER BY name desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `btchanges_menu` WHERE ( url like 'User/coin%' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0130s ]
+SQL: SELECT `id`,`pid`,`title` FROM `btchanges_menu` WHERE ( id=285 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title` FROM `btchanges_menu` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  `group` FROM `btchanges_menu` WHERE ( pid = 3 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`url` FROM `btchanges_menu` WHERE `pid` = 3 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '用户' AND `pid` = 3 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '前台用户管理' AND `pid` = 3 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '用户配置' AND `pid` = 3 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '后台用户管理' AND `pid` = 3 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user_coin` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `btchanges_user_coin` ORDER BY id desc LIMIT 0,15   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0140s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101628 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101624 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101623 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101618 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101613 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101612 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101611 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101610 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101608 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101607 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101605 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101604 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101603 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101602 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\1f7880e7f9b51d5d83d71228a906a055.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\1f7880e7f9b51d5d83d71228a906a055.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\1f7880e7f9b51d5d83d71228a906a055.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\1f7880e7f9b51d5d83d71228a906a055.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\1f7880e7f9b51d5d83d71228a906a055.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\1f7880e7f9b51d5d83d71228a906a055.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\1f7880e7f9b51d5d83d71228a906a055.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\1f7880e7f9b51d5d83d71228a906a055.php 第 1 行.
+NOTIC: [8] Undefined variable: versionUp D:\www\youzuan\Runtime\Cache\Admin\1f7880e7f9b51d5d83d71228a906a055.php 第 1 行.
+NOTIC: [8] Undefined index: field D:\www\youzuan\Runtime\Cache\Admin\1f7880e7f9b51d5d83d71228a906a055.php 第 19 行.
+NOTIC: [8] Undefined index: name D:\www\youzuan\Runtime\Cache\Admin\1f7880e7f9b51d5d83d71228a906a055.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-09T10:06:22+08:00 ] 127.0.0.1 /Admin/Finance/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_version` [ RunTime:0.0130s ]
+SQL: SELECT `name` FROM `btchanges_version` WHERE `status` = 0 ORDER BY name desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `btchanges_menu` WHERE ( url like 'Finance/index%' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0140s ]
+SQL: SELECT `id`,`pid`,`title` FROM `btchanges_menu` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  `group` FROM `btchanges_menu` WHERE ( pid = 4 )  [ RunTime:0.0020s ]
+SQL: SELECT `id`,`url` FROM `btchanges_menu` WHERE `pid` = 4 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '财务' AND `pid` = 4 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '提现' AND `pid` = 4 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_finance` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_finance` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `btchanges_finance` ORDER BY id desc LIMIT 0,15   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0130s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101628 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: seek D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101628 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: seek D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101628 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: seek D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tradelogreward D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tradelogreward D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tradelogreward D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: tradelogreward D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined variable: versionUp D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: field D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: name D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-09T10:06:25+08:00 ] 127.0.0.1 /Admin/Finance/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_version` [ RunTime:0.0140s ]
+SQL: SELECT `name` FROM `btchanges_version` WHERE `status` = 0 ORDER BY name desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `btchanges_menu` WHERE ( url like 'Finance/index%' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0150s ]
+SQL: SELECT `id`,`pid`,`title` FROM `btchanges_menu` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  `group` FROM `btchanges_menu` WHERE ( pid = 4 )  [ RunTime:0.0020s ]
+SQL: SELECT `id`,`url` FROM `btchanges_menu` WHERE `pid` = 4 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '财务' AND `pid` = 4 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '提现' AND `pid` = 4 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_finance` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_finance` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `btchanges_finance` ORDER BY id desc LIMIT 0,15   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0140s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101628 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: seek D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101628 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: seek D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101628 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: seek D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tradelogreward D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: tradelogreward D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tradelogreward D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tradelogreward D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined variable: versionUp D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: field D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: name D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-09T10:06:28+08:00 ] 127.0.0.1 /Admin/Finance/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_version` [ RunTime:0.0150s ]
+SQL: SELECT `name` FROM `btchanges_version` WHERE `status` = 0 ORDER BY name desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `btchanges_menu` WHERE ( url like 'Finance/index%' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0140s ]
+SQL: SELECT `id`,`pid`,`title` FROM `btchanges_menu` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  `group` FROM `btchanges_menu` WHERE ( pid = 4 )  [ RunTime:0.0020s ]
+SQL: SELECT `id`,`url` FROM `btchanges_menu` WHERE `pid` = 4 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '财务' AND `pid` = 4 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '提现' AND `pid` = 4 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_finance` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_finance` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `btchanges_finance` ORDER BY id desc LIMIT 0,15   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0130s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101628 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: seek D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101628 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: seek D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101628 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: seek D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: tradelogreward D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tradelogreward D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tradelogreward D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tradelogreward D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined variable: versionUp D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: field D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: name D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-09T10:08:14+08:00 ] 127.0.0.1 /Admin/Finance/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_version` [ RunTime:0.0140s ]
+SQL: SELECT `name` FROM `btchanges_version` WHERE `status` = 0 ORDER BY name desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `btchanges_menu` WHERE ( url like 'Finance/index%' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0150s ]
+SQL: SELECT `id`,`pid`,`title` FROM `btchanges_menu` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  `group` FROM `btchanges_menu` WHERE ( pid = 4 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`url` FROM `btchanges_menu` WHERE `pid` = 4 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '财务' AND `pid` = 4 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '提现' AND `pid` = 4 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_finance` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_finance` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `btchanges_finance` ORDER BY id desc LIMIT 0,15   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0140s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101628 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: seek D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101628 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: seek D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101628 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: seek D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101628 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: seek D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tradelogreward D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tradelogreward D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tradelogreward D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined variable: versionUp D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: field D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: name D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-07-09T10:08:25+08:00 ] 127.0.0.1 /Admin/Finance/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_version` [ RunTime:0.0140s ]
+SQL: SELECT `name` FROM `btchanges_version` WHERE `status` = 0 ORDER BY name desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `btchanges_menu` WHERE ( url like 'Finance/index%' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0140s ]
+SQL: SELECT `id`,`pid`,`title` FROM `btchanges_menu` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  `group` FROM `btchanges_menu` WHERE ( pid = 4 )  [ RunTime:0.0020s ]
+SQL: SELECT `id`,`url` FROM `btchanges_menu` WHERE `pid` = 4 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '财务' AND `pid` = 4 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '提现' AND `pid` = 4 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_finance` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_finance` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `btchanges_finance` ORDER BY id desc LIMIT 0,15   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0140s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101628 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: seek D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101628 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: seek D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101628 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: seek D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101628 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: seek D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: tradelogreward D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tradelogreward D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tradelogreward D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined variable: versionUp D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: field D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: name D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-09T10:09:24+08:00 ] 127.0.0.1 /Admin/Finance/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_version` [ RunTime:0.0150s ]
+SQL: SELECT `name` FROM `btchanges_version` WHERE `status` = 0 ORDER BY name desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `btchanges_menu` WHERE ( url like 'Finance/index%' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0130s ]
+SQL: SELECT `id`,`pid`,`title` FROM `btchanges_menu` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  `group` FROM `btchanges_menu` WHERE ( pid = 4 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`url` FROM `btchanges_menu` WHERE `pid` = 4 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '财务' AND `pid` = 4 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '提现' AND `pid` = 4 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_finance` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_finance` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `btchanges_finance` ORDER BY id desc LIMIT 0,15   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0140s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101628 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: seek D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101628 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: seek D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101628 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: seek D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tradelogreward D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: tradelogreward D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tradelogreward D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tradelogreward D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined variable: versionUp D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: field D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: name D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-09T10:11:00+08:00 ] 127.0.0.1 /Admin/Finance/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_version` [ RunTime:0.0120s ]
+SQL: SELECT `name` FROM `btchanges_version` WHERE `status` = 0 ORDER BY name desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `btchanges_menu` WHERE ( url like 'Finance/index%' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0150s ]
+SQL: SELECT `id`,`pid`,`title` FROM `btchanges_menu` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  `group` FROM `btchanges_menu` WHERE ( pid = 4 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`url` FROM `btchanges_menu` WHERE `pid` = 4 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '财务' AND `pid` = 4 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '提现' AND `pid` = 4 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_finance` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_finance` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `btchanges_finance` ORDER BY id desc LIMIT 0,15   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0150s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101628 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: seek D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101628 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: seek D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101628 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: seek D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101628 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: seek D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tradelogreward D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: tradelogreward D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tradelogreward D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined variable: versionUp D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: field D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: name D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-07-09T10:11:03+08:00 ] 127.0.0.1 /Admin/Finance/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_version` [ RunTime:0.0160s ]
+SQL: SELECT `name` FROM `btchanges_version` WHERE `status` = 0 ORDER BY name desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `btchanges_menu` WHERE ( url like 'Finance/index%' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0130s ]
+SQL: SELECT `id`,`pid`,`title` FROM `btchanges_menu` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  `group` FROM `btchanges_menu` WHERE ( pid = 4 )  [ RunTime:0.0020s ]
+SQL: SELECT `id`,`url` FROM `btchanges_menu` WHERE `pid` = 4 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '财务' AND `pid` = 4 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '提现' AND `pid` = 4 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_finance` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_finance` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `btchanges_finance` ORDER BY id desc LIMIT 0,15   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0140s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101628 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: seek D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101628 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: seek D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101628 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: seek D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101628 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: seek D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tradelogreward D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tradelogreward D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tradelogreward D:\www\youzuan\Application\Admin\Controller\FinanceController.class.php 第 41 行.
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined variable: versionUp D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: field D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+NOTIC: [8] Undefined index: name D:\www\youzuan\Runtime\Cache\Admin\be63e8ac18ebea09dc932cef0872ffd8.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-09T15:00:19+08:00 ] 127.0.0.1 /Admin/Config/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-07-09T15:00:20+08:00 ] 127.0.0.1 /Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-07-09T15:00:27+08:00 ] 127.0.0.1 /Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-07-09T15:00:28+08:00 ] 127.0.0.1 /Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-07-09T15:00:34+08:00 ] 127.0.0.1 /admin/login?btchanges=linsion
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-09T15:00:35+08:00 ] 127.0.0.1 /Admin/Verify/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-09T15:00:48+08:00 ] 127.0.0.1 /Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `btchanges_admin` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `btchanges_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-07-09T15:00:51+08:00 ] 127.0.0.1 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_version` [ RunTime:0.0090s ]
+SQL: SELECT `name` FROM `btchanges_version` WHERE `status` = 0 ORDER BY name desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `btchanges_menu` WHERE ( url like 'Index/index%' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid`,`title` FROM `btchanges_menu` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  `group` FROM `btchanges_menu` WHERE ( pid = 1 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`url` FROM `btchanges_menu` WHERE `pid` = 1 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '系统' AND `pid` = 1 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` LIMIT 1   [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0110s ]
+SQL: SELECT SUM(cny) AS tp_sum FROM `btchanges_user_coin` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(cnyd) AS tp_sum FROM `btchanges_user_coin` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_trade_log` [ RunTime:0.0120s ]
+SQL: SELECT SUM(mum) AS tp_sum FROM `btchanges_trade_log` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_article` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_mycz` [ RunTime:0.0110s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1528560000 AND `addtime` < 1528646400  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_mytx` [ RunTime:0.0110s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1528560000 AND `addtime` < 1528646400  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1528646400 AND `addtime` < 1528732800  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1528646400 AND `addtime` < 1528732800  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1528732800 AND `addtime` < 1528819200  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1528732800 AND `addtime` < 1528819200  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1528819200 AND `addtime` < 1528905600  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1528819200 AND `addtime` < 1528905600  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1528905600 AND `addtime` < 1528992000  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1528905600 AND `addtime` < 1528992000  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1528992000 AND `addtime` < 1529078400  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1528992000 AND `addtime` < 1529078400  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1529078400 AND `addtime` < 1529164800  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1529078400 AND `addtime` < 1529164800  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1529164800 AND `addtime` < 1529251200  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1529164800 AND `addtime` < 1529251200  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1529251200 AND `addtime` < 1529337600  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1529251200 AND `addtime` < 1529337600  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1529337600 AND `addtime` < 1529424000  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1529337600 AND `addtime` < 1529424000  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1529424000 AND `addtime` < 1529510400  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1529424000 AND `addtime` < 1529510400  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1529510400 AND `addtime` < 1529596800  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1529510400 AND `addtime` < 1529596800  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1529596800 AND `addtime` < 1529683200  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1529596800 AND `addtime` < 1529683200  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1529683200 AND `addtime` < 1529769600  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1529683200 AND `addtime` < 1529769600  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1529769600 AND `addtime` < 1529856000  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1529769600 AND `addtime` < 1529856000  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1529856000 AND `addtime` < 1529942400  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1529856000 AND `addtime` < 1529942400  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1529942400 AND `addtime` < 1530028800  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1529942400 AND `addtime` < 1530028800  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1530028800 AND `addtime` < 1530115200  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1530028800 AND `addtime` < 1530115200  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1530115200 AND `addtime` < 1530201600  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1530115200 AND `addtime` < 1530201600  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1530201600 AND `addtime` < 1530288000  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1530201600 AND `addtime` < 1530288000  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1530288000 AND `addtime` < 1530374400  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1530288000 AND `addtime` < 1530374400  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1530374400 AND `addtime` < 1530460800  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1530374400 AND `addtime` < 1530460800  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1530460800 AND `addtime` < 1530547200  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1530460800 AND `addtime` < 1530547200  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1530547200 AND `addtime` < 1530633600  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1530547200 AND `addtime` < 1530633600  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1530633600 AND `addtime` < 1530720000  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1530633600 AND `addtime` < 1530720000  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1530720000 AND `addtime` < 1530806400  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1530720000 AND `addtime` < 1530806400  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1530806400 AND `addtime` < 1530892800  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1530806400 AND `addtime` < 1530892800  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1530892800 AND `addtime` < 1530979200  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1530892800 AND `addtime` < 1530979200  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1530979200 AND `addtime` < 1531065600  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1530979200 AND `addtime` < 1531065600  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1531065600 AND `addtime` < 1531152000  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1531065600 AND `addtime` < 1531152000  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1528527649 AND `addtime` < 1528614049  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1528614049 AND `addtime` < 1528700449  ) LIMIT 1   [ RunTime:0.0440s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1528700449 AND `addtime` < 1528786849  ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1528786849 AND `addtime` < 1528873249  ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1528873249 AND `addtime` < 1528959649  ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1528959649 AND `addtime` < 1529046049  ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1529046049 AND `addtime` < 1529132449  ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1529132449 AND `addtime` < 1529218849  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1529218849 AND `addtime` < 1529305249  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1529305249 AND `addtime` < 1529391649  ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1529391649 AND `addtime` < 1529478049  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1529478049 AND `addtime` < 1529564449  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1529564449 AND `addtime` < 1529650849  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1529650849 AND `addtime` < 1529737249  ) LIMIT 1   [ RunTime:0.0440s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1529737249 AND `addtime` < 1529823649  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1529823649 AND `addtime` < 1529910049  ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1529910049 AND `addtime` < 1529996449  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1529996449 AND `addtime` < 1530082849  ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1530082849 AND `addtime` < 1530169249  ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1530169249 AND `addtime` < 1530255649  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1530255649 AND `addtime` < 1530342049  ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1530342049 AND `addtime` < 1530428449  ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1530428449 AND `addtime` < 1530514849  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1530514849 AND `addtime` < 1530601249  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1530601249 AND `addtime` < 1530687649  ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1530687649 AND `addtime` < 1530774049  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1530774049 AND `addtime` < 1530860449  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1530860449 AND `addtime` < 1530946849  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1530946849 AND `addtime` < 1531033249  ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1531033249 AND `addtime` < 1531119649  ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1531119649 AND `addtime` < 1531206049  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1531206049 AND `addtime` < 1531292449  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1531292449 AND `addtime` < 1531378849  ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1531378849 AND `addtime` < 1531465249  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1531465249 AND `addtime` < 1531551649  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1531551649 AND `addtime` < 1531638049  ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1531638049 AND `addtime` < 1531724449  ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1531724449 AND `addtime` < 1531810849  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1531810849 AND `addtime` < 1531897249  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1531897249 AND `addtime` < 1531983649  ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1531983649 AND `addtime` < 1532070049  ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1532070049 AND `addtime` < 1532156449  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1532156449 AND `addtime` < 1532242849  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1532242849 AND `addtime` < 1532329249  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1532329249 AND `addtime` < 1532415649  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1532415649 AND `addtime` < 1532502049  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1532502049 AND `addtime` < 1532588449  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1532588449 AND `addtime` < 1532674849  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1532674849 AND `addtime` < 1532761249  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1532761249 AND `addtime` < 1532847649  ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1532847649 AND `addtime` < 1532934049  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1532934049 AND `addtime` < 1533020449  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1533020449 AND `addtime` < 1533106849  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1533106849 AND `addtime` < 1533193249  ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1533193249 AND `addtime` < 1533279649  ) LIMIT 1   [ RunTime:0.0440s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1533279649 AND `addtime` < 1533366049  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1533366049 AND `addtime` < 1533452449  ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1533452449 AND `addtime` < 1533538849  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1533538849 AND `addtime` < 1533625249  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1533625249 AND `addtime` < 1533711649  ) LIMIT 1   [ RunTime:0.0430s ]
+NOTIC: [8] Undefined index: cztx D:\www\youzuan\Application\Admin\Controller\IndexController.class.php 第 60 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 1 行.
+NOTIC: [8] Undefined variable: versionUp D:\www\youzuan\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 1 行.
+SQL: select version() as v; [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-07-09T15:01:22+08:00 ] 127.0.0.1 /Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_version` [ RunTime:0.0110s ]
+SQL: SELECT `name` FROM `btchanges_version` WHERE `status` = 0 ORDER BY name desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `btchanges_menu` WHERE ( url like 'Article/index%' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid`,`title` FROM `btchanges_menu` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  `group` FROM `btchanges_menu` WHERE ( pid = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`url` FROM `btchanges_menu` WHERE `pid` = 2 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '内容' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '提示管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '内容管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_article` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `btchanges_article` ORDER BY id desc LIMIT 0,15   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_admin` [ RunTime:0.0120s ]
+SQL: SELECT `username` FROM `btchanges_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `username` FROM `btchanges_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `username` FROM `btchanges_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 1 行.
+NOTIC: [8] Undefined variable: versionUp D:\www\youzuan\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 1 行.
+NOTIC: [8] Undefined index: status D:\www\youzuan\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 1 行.
+NOTIC: [8] Undefined index: status D:\www\youzuan\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 1 行.
+NOTIC: [8] Undefined index: field D:\www\youzuan\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 1 行.
+NOTIC: [8] Undefined index: name D:\www\youzuan\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-09T15:01:25+08:00 ] 127.0.0.1 /Admin/Article/adver.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_version` [ RunTime:0.0100s ]
+SQL: SELECT `name` FROM `btchanges_version` WHERE `status` = 0 ORDER BY name desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `btchanges_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `btchanges_menu` WHERE ( url like 'Article/adver%' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid`,`title` FROM `btchanges_menu` WHERE ( id=279 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid`,`title` FROM `btchanges_menu` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  `group` FROM `btchanges_menu` WHERE ( pid = 2 )  [ RunTime:0.0020s ]
+SQL: SELECT `id`,`url` FROM `btchanges_menu` WHERE `pid` = 2 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '内容' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '提示管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '内容管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_adver` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_adver` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `btchanges_adver` ORDER BY id desc LIMIT 0,15   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\236d38871266de05cdbc60362b2f1625.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\236d38871266de05cdbc60362b2f1625.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\236d38871266de05cdbc60362b2f1625.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\236d38871266de05cdbc60362b2f1625.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\236d38871266de05cdbc60362b2f1625.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\236d38871266de05cdbc60362b2f1625.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\236d38871266de05cdbc60362b2f1625.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\236d38871266de05cdbc60362b2f1625.php 第 1 行.
+NOTIC: [8] Undefined variable: versionUp D:\www\youzuan\Runtime\Cache\Admin\236d38871266de05cdbc60362b2f1625.php 第 1 行.
+NOTIC: [8] Undefined index: status D:\www\youzuan\Runtime\Cache\Admin\236d38871266de05cdbc60362b2f1625.php 第 26 行.
+NOTIC: [8] Undefined index: status D:\www\youzuan\Runtime\Cache\Admin\236d38871266de05cdbc60362b2f1625.php 第 29 行.
+NOTIC: [8] Undefined index: field D:\www\youzuan\Runtime\Cache\Admin\236d38871266de05cdbc60362b2f1625.php 第 34 行.
+NOTIC: [8] Undefined index: name D:\www\youzuan\Runtime\Cache\Admin\236d38871266de05cdbc60362b2f1625.php 第 37 行.
+NOTIC: [8] Undefined index: title D:\www\youzuan\Runtime\Cache\Admin\236d38871266de05cdbc60362b2f1625.php 第 80 行.
+NOTIC: [8] Undefined index: title D:\www\youzuan\Runtime\Cache\Admin\236d38871266de05cdbc60362b2f1625.php 第 80 行.
+NOTIC: [8] Undefined index: title D:\www\youzuan\Runtime\Cache\Admin\236d38871266de05cdbc60362b2f1625.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-07-09T15:01:29+08:00 ] 127.0.0.1 /Admin/Article/adverEdit/id/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_version` [ RunTime:0.0110s ]
+SQL: SELECT `name` FROM `btchanges_version` WHERE `status` = 0 ORDER BY name desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `btchanges_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `btchanges_menu` WHERE ( url like 'Article/adverEdit%' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid`,`title` FROM `btchanges_menu` WHERE ( id=335 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title` FROM `btchanges_menu` WHERE ( id=279 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title` FROM `btchanges_menu` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  `group` FROM `btchanges_menu` WHERE ( pid = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`url` FROM `btchanges_menu` WHERE `pid` = 2 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '内容' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '提示管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '内容管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_adver` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_adver` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\bb769c6c0b3c197805eac7eabfc3e1b6.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\bb769c6c0b3c197805eac7eabfc3e1b6.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\bb769c6c0b3c197805eac7eabfc3e1b6.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\bb769c6c0b3c197805eac7eabfc3e1b6.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\bb769c6c0b3c197805eac7eabfc3e1b6.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\bb769c6c0b3c197805eac7eabfc3e1b6.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\bb769c6c0b3c197805eac7eabfc3e1b6.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\bb769c6c0b3c197805eac7eabfc3e1b6.php 第 1 行.
+NOTIC: [8] Undefined variable: versionUp D:\www\youzuan\Runtime\Cache\Admin\bb769c6c0b3c197805eac7eabfc3e1b6.php 第 1 行.
+NOTIC: [8] Undefined index: title D:\www\youzuan\Runtime\Cache\Admin\bb769c6c0b3c197805eac7eabfc3e1b6.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-09T16:50:04+08:00 ] 127.0.0.1 /Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_version` [ RunTime:0.0550s ]
+SQL: SELECT `name` FROM `btchanges_version` WHERE `status` = 0 ORDER BY name desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `btchanges_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `btchanges_menu` WHERE ( url like 'User/index%' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0130s ]
+SQL: SELECT `id`,`pid`,`title` FROM `btchanges_menu` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  `group` FROM `btchanges_menu` WHERE ( pid = 3 )  [ RunTime:0.0020s ]
+SQL: SELECT `id`,`url` FROM `btchanges_menu` WHERE `pid` = 3 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '用户' AND `pid` = 3 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '前台用户管理' AND `pid` = 3 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '用户配置' AND `pid` = 3 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '后台用户管理' AND `pid` = 3 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` LIMIT 1   [ RunTime:0.1230s ]
+SQL: SELECT * FROM `btchanges_user` ORDER BY id desc LIMIT 0,15   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 116 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 116 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 96 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 116 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 116 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 1 行.
+NOTIC: [8] Undefined variable: versionUp D:\www\youzuan\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 1 行.
+NOTIC: [8] Undefined index: status D:\www\youzuan\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 1 行.
+NOTIC: [8] Undefined index: status D:\www\youzuan\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 1 行.
+NOTIC: [8] Undefined index: field D:\www\youzuan\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 1 行.
+NOTIC: [8] Undefined index: field D:\www\youzuan\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 1 行.
+NOTIC: [8] Undefined index: field D:\www\youzuan\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 1 行.
+NOTIC: [8] Undefined index: name D:\www\youzuan\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-07-09T16:50:07+08:00 ] 127.0.0.1 /Admin/User/smrz.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_version` [ RunTime:0.0110s ]
+SQL: SELECT `name` FROM `btchanges_version` WHERE `status` = 0 ORDER BY name desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `btchanges_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `btchanges_menu` WHERE ( url like 'User/smrz%' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid`,`title` FROM `btchanges_menu` WHERE ( id=454 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title` FROM `btchanges_menu` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  `group` FROM `btchanges_menu` WHERE ( pid = 3 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`url` FROM `btchanges_menu` WHERE `pid` = 3 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '用户' AND `pid` = 3 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '前台用户管理' AND `pid` = 3 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '用户配置' AND `pid` = 3 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '后台用户管理' AND `pid` = 3 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_smrz` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_smrz` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `btchanges_smrz` WHERE `status` = 0 ORDER BY id desc LIMIT 0,15   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\3c707c113da24518794ca26d648597b4.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\3c707c113da24518794ca26d648597b4.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\3c707c113da24518794ca26d648597b4.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\3c707c113da24518794ca26d648597b4.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\3c707c113da24518794ca26d648597b4.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\3c707c113da24518794ca26d648597b4.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\3c707c113da24518794ca26d648597b4.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\3c707c113da24518794ca26d648597b4.php 第 1 行.
+NOTIC: [8] Undefined variable: versionUp D:\www\youzuan\Runtime\Cache\Admin\3c707c113da24518794ca26d648597b4.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-07-09T16:52:30+08:00 ] 127.0.0.1 /Admin/User/smrz.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_version` [ RunTime:0.0100s ]
+SQL: SELECT `name` FROM `btchanges_version` WHERE `status` = 0 ORDER BY name desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `btchanges_menu` WHERE ( url like 'User/smrz%' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid`,`title` FROM `btchanges_menu` WHERE ( id=454 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title` FROM `btchanges_menu` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  `group` FROM `btchanges_menu` WHERE ( pid = 3 )  [ RunTime:0.0020s ]
+SQL: SELECT `id`,`url` FROM `btchanges_menu` WHERE `pid` = 3 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '用户' AND `pid` = 3 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '前台用户管理' AND `pid` = 3 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '用户配置' AND `pid` = 3 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '后台用户管理' AND `pid` = 3 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_smrz` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_smrz` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `btchanges_smrz` WHERE `status` = 0 ORDER BY id desc LIMIT 0,15   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\3c707c113da24518794ca26d648597b4.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\3c707c113da24518794ca26d648597b4.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\3c707c113da24518794ca26d648597b4.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\3c707c113da24518794ca26d648597b4.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\3c707c113da24518794ca26d648597b4.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\3c707c113da24518794ca26d648597b4.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\3c707c113da24518794ca26d648597b4.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\3c707c113da24518794ca26d648597b4.php 第 1 行.
+NOTIC: [8] Undefined variable: versionUp D:\www\youzuan\Runtime\Cache\Admin\3c707c113da24518794ca26d648597b4.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-07-09T17:39:04+08:00 ] 127.0.0.1 /Admin/Config/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_version` [ RunTime:0.0100s ]
+SQL: SELECT `name` FROM `btchanges_version` WHERE `status` = 0 ORDER BY name desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `btchanges_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `btchanges_menu` WHERE ( url like 'Config/index%' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0110s ]
+SQL: SELECT `id`,`pid`,`title` FROM `btchanges_menu` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  `group` FROM `btchanges_menu` WHERE ( pid = 7 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`url` FROM `btchanges_menu` WHERE `pid` = 7 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '设置' AND `pid` = 7 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '开发组' AND `pid` = 7 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 1 行.
+NOTIC: [8] Undefined variable: versionUp D:\www\youzuan\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 1 行.
+NOTIC: [8] Undefined index: lbt_1 D:\www\youzuan\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 1 行.
+NOTIC: [8] Undefined index: lbt_2 D:\www\youzuan\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 1 行.
+NOTIC: [8] Undefined index: new_right D:\www\youzuan\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

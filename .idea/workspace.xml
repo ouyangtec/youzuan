@@ -1,0 +1,1117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e209cb10-e9ea-47bd-b62c-a8bd3dbf67f6" name="默认的" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/youzuan$youzuan_com.dat" NAME="youzuan.com Coverage Results" MODIFIED="1534330344033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1344048360">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="8" />
+          <entry key="ico" value="1" />
+          <entry key="jpg" value="1" />
+          <entry key="php" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="8" />
+          <entry key="Image" value="2" />
+          <entry key="PHP" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="212" />
+          <entry key="php" value="115" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="212" />
+          <entry key="PHP" value="115" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="youlian" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Home/Controller/TradeController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="10" column="34" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Home/View/Trade/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="661">
+              <caret line="452" column="55" selection-start-line="452" selection-start-column="55" selection-end-line="452" selection-end-column="55" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#td#6;n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#td#6;n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+                <element signature="e#105#111#0" expanded="true" />
+                <element signature="e#111#117#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Home/View/Finance/mytx.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="150" column="40" selection-start-line="146" selection-start-column="32" selection-end-line="150" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Application/Home/Controller/AjaxController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="454">
+              <caret line="246" column="13" selection-start-line="246" selection-start-column="13" selection-end-line="246" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Home/View/Finance/mycz.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="267" column="11" selection-start-line="264" selection-start-column="5" selection-end-line="267" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Home/Controller/EmptyController.class.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Home/Controller/FinanceController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="98" column="39" selection-start-line="98" selection-start-column="39" selection-end-line="98" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Common/Common/function.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="1220" column="17" selection-start-line="1220" selection-start-column="17" selection-end-line="1220" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Home/Controller/UserController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Home/View/User/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="29" column="66" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>autotrust</find>
+      <find>buykenum</find>
+      <find>my_rmb</find>
+      <find>parseFloat</find>
+      <find>xnb</find>
+      <find>uptrade</find>
+      <find>jia</find>
+      <find>get</find>
+      <find>jia(</find>
+      <find>alert</find>
+      <find>buy_mum</find>
+      <find>mytj(</find>
+      <find>mywd(</find>
+      <find>upt</find>
+      <find>开户银行</find>
+      <find>delete</find>
+      <find>mytx</find>
+      <find>zc</find>
+      <find>{:U('Trade/index')}</find>
+      <find>index(</find>
+      <find>market_mr</find>
+      <find>upmycz</find>
+      <find>index</find>
+      <find>cny</find>
+      <find>mum</find>
+      <find>mycz</find>
+      <find>请输入充值金额</find>
+      <find>mycz(</find>
+      <find>money</find>
+      <find>buy</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>#sell_price</replace>
+      <replace>#buy_num</replace>
+      <replace>#sell_num</replace>
+      <replace>$seek</replace>
+      <replace>seek</replace>
+      <replace>$rmb</replace>
+      <replace>$rmb.'d'</replace>
+      <replace>-1</replace>
+      <replace>$this-&gt;error</replace>
+      <replace>layer</replace>
+      <replace>__PUBLIC__/layer</replace>
+      <replace>$data</replace>
+      <replace>neq</replace>
+      <replace>$arr['type']</replace>
+      <replace>$arr['type'].'d'</replace>
+      <replace>$coin</replace>
+      <replace>微信</replace>
+      <replace>&quot;cny&quot;</replace>
+      <replace>&quot;cnyd&quot;</replace>
+      <replace>$mum</replace>
+      <replace>$v</replace>
+      <replace>交易</replace>
+      <replace>$v['userid'])</replace>
+      <replace>$v['userid']</replace>
+      <replace>$coinjian</replace>
+      <replace>$sum</replace>
+      <replace>QQ钱包</replace>
+      <replace>buy_price</replace>
+      <replace>/login</replace>
+      <replace>zc</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>F:\PHP\WWW\kuangji</dir>
+      <dir>D:\www\youlian\Application\Home</dir>
+      <dir>D:\www\youlian\Application\A</dir>
+      <dir>D:\www\youlian</dir>
+      <dir>D:\www\youzuan\Application\Home\Controller</dir>
+      <dir>D:\www\youzuan\Application</dir>
+      <dir>D:\www\youzuan\Application\Home\View</dir>
+      <dir>D:\www\youzuan</dir>
+      <dir>D:\www\youzuan\Application\Home\View\Finance</dir>
+      <dir>D:\www\youzuan\Application\Home</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Application/Home/View/Login/register.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Login/register4.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Login/register2.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Duobao/index.html" />
+        <option value="$PROJECT_DIR$/Application/Home/Controller/IssueController.class.php" />
+        <option value="$PROJECT_DIR$/run.php" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Login/index.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/User/config.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/User/paypassword.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/User/password.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Issue/index.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Login/findpaypwd.html" />
+        <option value="$PROJECT_DIR$/Application/Home/Controller/LoginController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Pay/mytx.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/User/alipay.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/User/payment.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Finance/payselect.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/User/bank.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/User/weChat.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Pay/qq.html" />
+        <option value="$PROJECT_DIR$/run1.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/FenhongController.class.php" />
+        <option value="$PROJECT_DIR$/run2.php" />
+        <option value="$PROJECT_DIR$/Public/Home/css/main.css" />
+        <option value="$PROJECT_DIR$/Application/Home/View/User/nameauth.html" />
+        <option value="$PROJECT_DIR$/Application/Home/Controller/HomeController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/View/User/redrocome.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Trade/seeklist.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Index/index.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/User/traderecord.html" />
+        <option value="$PROJECT_DIR$/Application/Home/Controller/GameController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Finance/index.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Finance/mytj.html" />
+        <option value="$PROJECT_DIR$/Application/Home/Controller/FenhongController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Fenhong/index.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Trade/seek.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/FinanceController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/Controller/QueueController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/Controller/TradeController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/Controller/PayController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/Controller/aliyunVerifyController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/Controller/HuafeiController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/Controller/ShopController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Common/Common/function.php" />
+        <option value="$PROJECT_DIR$/Application/Home/Controller/UserController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/View/User/index.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Trade/index.html" />
+        <option value="$PROJECT_DIR$/Application/Home/Controller/FinanceController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Finance/mycz.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Finance/mytx.html" />
+        <option value="$PROJECT_DIR$/Application/Home/Controller/AjaxController.class.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpServers">
+    <servers>
+      <server host="youzuan.com" id="bfdaea17-c485-4262-9ead-da0c8b5f91c8" name="youzuan.com" />
+    </servers>
+  </component>
+  <component name="PhpWebServerValidation" path_to_validation_script="D:\www\youzuan" selected_validation_type="LOCAL" web_path_to_validation_script="youzuan.com" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="12" />
+    <option name="y" value="4" />
+    <option name="width" value="1461" />
+    <option name="height" value="854" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>PHP</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PhpCSValidationInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <showMembers Scope="false" />
+      <autoscrollToSource Scope="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="youzuan" type="cbb8eebc:String" user="youzuan" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="youzuan" type="cbb8eebc:String" user="youzuan" />
+              <item name="Application" type="cbb8eebc:String" user="Application" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="youzuan" type="cbb8eebc:String" user="youzuan" />
+              <item name="Application" type="cbb8eebc:String" user="Application" />
+              <item name="Common" type="cbb8eebc:String" user="Common" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="youzuan" type="cbb8eebc:String" user="youzuan" />
+              <item name="Application" type="cbb8eebc:String" user="Application" />
+              <item name="Common" type="cbb8eebc:String" user="Common" />
+              <item name="Common" type="cbb8eebc:String" user="Common" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="youzuan" type="cbb8eebc:String" user="youzuan" />
+              <item name="Application" type="cbb8eebc:String" user="Application" />
+              <item name="Home" type="cbb8eebc:String" user="Home" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="youzuan" type="cbb8eebc:String" user="youzuan" />
+              <item name="Application" type="cbb8eebc:String" user="Application" />
+              <item name="Home" type="cbb8eebc:String" user="Home" />
+              <item name="Controller" type="cbb8eebc:String" user="Controller" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="youzuan" type="cbb8eebc:String" user="youzuan" />
+              <item name="Application" type="cbb8eebc:String" user="Application" />
+              <item name="Home" type="cbb8eebc:String" user="Home" />
+              <item name="View" type="cbb8eebc:String" user="View" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="youzuan" type="cbb8eebc:String" user="youzuan" />
+              <item name="Application" type="cbb8eebc:String" user="Application" />
+              <item name="Home" type="cbb8eebc:String" user="Home" />
+              <item name="View" type="cbb8eebc:String" user="View" />
+              <item name="Finance" type="cbb8eebc:String" user="Finance" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="youzuan" type="cbb8eebc:String" user="youzuan" />
+              <item name="Application" type="cbb8eebc:String" user="Application" />
+              <item name="Home" type="cbb8eebc:String" user="Home" />
+              <item name="View" type="cbb8eebc:String" user="View" />
+              <item name="Index" type="cbb8eebc:String" user="Index" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="youzuan" type="cbb8eebc:String" user="youzuan" />
+              <item name="Application" type="cbb8eebc:String" user="Application" />
+              <item name="Home" type="cbb8eebc:String" user="Home" />
+              <item name="View" type="cbb8eebc:String" user="View" />
+              <item name="Trade" type="cbb8eebc:String" user="Trade" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="youzuan" type="cbb8eebc:String" user="youzuan" />
+              <item name="Application" type="cbb8eebc:String" user="Application" />
+              <item name="Home" type="cbb8eebc:String" user="Home" />
+              <item name="View" type="cbb8eebc:String" user="View" />
+              <item name="User" type="cbb8eebc:String" user="User" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="youzuan" type="cbb8eebc:String" user="youzuan" />
+              <item name="Application" type="cbb8eebc:String" user="Application" />
+              <item name="Home" type="cbb8eebc:String" user="Home" />
+              <item name="View" type="cbb8eebc:String" user="View" />
+              <item name="Vote" type="cbb8eebc:String" user="Vote" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="youzuan" type="cbb8eebc:String" user="youzuan" />
+              <item name="Public" type="cbb8eebc:String" user="Public" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="youzuan" type="cbb8eebc:String" user="youzuan" />
+              <item name="Public" type="cbb8eebc:String" user="Public" />
+              <item name="Home" type="cbb8eebc:String" user="Home" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="youzuan" type="cbb8eebc:String" user="youzuan" />
+              <item name="Public" type="cbb8eebc:String" user="Public" />
+              <item name="Home" type="cbb8eebc:String" user="Home" />
+              <item name="css" type="cbb8eebc:String" user="css" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="youzuan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youzuan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youzuan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youzuan" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youzuan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youzuan" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youzuan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youzuan" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youzuan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youzuan" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="Home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youzuan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youzuan" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="Home" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youzuan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youzuan" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="Home" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youzuan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youzuan" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="Home" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+              <item name="Finance" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youzuan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youzuan" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="Home" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+              <item name="Trade" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youzuan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youzuan" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="Home" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+              <item name="User" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\www\youzuan\Application\Home\View\Finance" />
+      <recent name="D:\www\youzuan\Application\Home\View\User" />
+      <recent name="D:\www\youzuan\Application\Admin\View\Duobao" />
+      <recent name="D:\www\youzuan\Application\Home\View\Pay" />
+      <recent name="D:\www\youzuan\Application\Home\View\Issue" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\www\youzuan\Application\Home\View\Trade" />
+      <recent name="D:\www\youzuan\Public\Home\css" />
+      <recent name="D:\www\youzuan" />
+      <recent name="D:\www\youzuan\Application\Home\View\Pay" />
+      <recent name="D:\www\youzuan\Application\Home\View\User" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.youzuan.com">
+    <configuration name="UserController.class.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/youzuan/Application/Home/Controller/UserController.class.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="bank.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/youzuan/Application/Home/View/User/bank.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="youzuan.com" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://youzuan.com">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.youzuan.com" />
+      <item itemvalue="JavaScript Debug.UserController.class.php" />
+      <item itemvalue="JavaScript Debug.bank.html" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.youzuan.com" />
+        <item itemvalue="JavaScript Debug.bank.html" />
+        <item itemvalue="JavaScript Debug.UserController.class.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e209cb10-e9ea-47bd-b62c-a8bd3dbf67f6" name="默认的" comment="" />
+      <created>1505891485130</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1505891485130</updated>
+      <workItem from="1505891487158" duration="6152000" />
+      <workItem from="1505955558869" duration="17830000" />
+      <workItem from="1506041432144" duration="31678000" />
+      <workItem from="1506085412231" duration="7409000" />
+      <workItem from="1506127729371" duration="24940000" />
+      <workItem from="1506213208847" duration="16923000" />
+      <workItem from="1506300622693" duration="22791000" />
+      <workItem from="1506391039961" duration="12412000" />
+      <workItem from="1506482093136" duration="5784000" />
+      <workItem from="1506507174238" duration="953000" />
+      <workItem from="1506559231723" duration="21376000" />
+      <workItem from="1506645444564" duration="11225000" />
+      <workItem from="1506734223501" duration="2017000" />
+      <workItem from="1507424607572" duration="68000" />
+      <workItem from="1507428477985" duration="4619000" />
+      <workItem from="1507595646671" duration="1983000" />
+      <workItem from="1507768986173" duration="2079000" />
+      <workItem from="1507887811200" duration="2547000" />
+      <workItem from="1507941524906" duration="332000" />
+      <workItem from="1507941883689" duration="10237000" />
+      <workItem from="1508066667880" duration="6399000" />
+      <workItem from="1508200888680" duration="21615000" />
+      <workItem from="1508246435754" duration="6840000" />
+      <workItem from="1508291384432" duration="12573000" />
+      <workItem from="1508399471085" duration="43000" />
+      <workItem from="1508460441216" duration="26000" />
+      <workItem from="1508547427622" duration="202000" />
+      <workItem from="1508721097666" duration="1013000" />
+      <workItem from="1508824279239" duration="6002000" />
+      <workItem from="1508894026223" duration="8273000" />
+      <workItem from="1509672515173" duration="3545000" />
+      <workItem from="1517906719316" duration="6089000" />
+      <workItem from="1517965874620" duration="626000" />
+      <workItem from="1518140274878" duration="4332000" />
+      <workItem from="1526517714618" duration="12987000" />
+      <workItem from="1526604502347" duration="29422000" />
+      <workItem from="1526949331163" duration="19313000" />
+      <workItem from="1526718548392" duration="6226000" />
+      <workItem from="1526863486640" duration="1027000" />
+      <workItem from="1526885374163" duration="16507000" />
+      <workItem from="1526951041904" duration="728000" />
+      <workItem from="1526952688555" duration="16307000" />
+      <workItem from="1526984273761" duration="869000" />
+      <workItem from="1527042767199" duration="1891000" />
+      <workItem from="1527146622523" duration="1997000" />
+      <workItem from="1527148638874" duration="142000" />
+      <workItem from="1527148784031" duration="8536000" />
+      <workItem from="1527208675459" duration="4267000" />
+      <workItem from="1527214575907" duration="5508000" />
+      <workItem from="1527228119511" duration="15399000" />
+      <workItem from="1527296266664" duration="3025000" />
+      <workItem from="1527324595473" duration="12160000" />
+      <workItem from="1527467880586" duration="5315000" />
+      <workItem from="1529574825400" duration="363000" />
+      <workItem from="1529628191604" duration="599000" />
+      <workItem from="1530080436256" duration="3157000" />
+      <workItem from="1530239149058" duration="10366000" />
+      <workItem from="1530261749250" duration="27071000" />
+      <workItem from="1530492549981" duration="27769000" />
+      <workItem from="1530578748007" duration="16957000" />
+      <workItem from="1530665054651" duration="22656000" />
+      <workItem from="1530752278640" duration="22900000" />
+      <workItem from="1530837833337" duration="20815000" />
+      <workItem from="1530924738317" duration="23133000" />
+      <workItem from="1531096943161" duration="29071000" />
+      <workItem from="1531183430101" duration="25140000" />
+      <workItem from="1531273847503" duration="22701000" />
+      <workItem from="1531356702429" duration="21289000" />
+      <workItem from="1531442845596" duration="25026000" />
+      <workItem from="1531529533721" duration="27200000" />
+      <workItem from="1531703726928" duration="9163000" />
+      <workItem from="1531722201413" duration="9233000" />
+      <workItem from="1531788948703" duration="19217000" />
+      <workItem from="1531874878910" duration="1846000" />
+      <workItem from="1531962468329" duration="9497000" />
+      <workItem from="1532056580489" duration="15365000" />
+      <workItem from="1532153568773" duration="13331000" />
+      <workItem from="1532306684038" duration="19803000" />
+      <workItem from="1532341353455" duration="2466000" />
+      <workItem from="1532392719588" duration="19555000" />
+      <workItem from="1532479268870" duration="25497000" />
+      <workItem from="1532653478382" duration="28000" />
+      <workItem from="1532759965442" duration="598000" />
+      <workItem from="1532685943094" duration="1507000" />
+      <workItem from="1532738906868" duration="14628000" />
+      <workItem from="1532916240140" duration="18520000" />
+      <workItem from="1532996930140" duration="21800000" />
+      <workItem from="1533085713359" duration="19595000" />
+      <workItem from="1533351930320" duration="9859000" />
+      <workItem from="1533370526755" duration="17000" />
+      <workItem from="1533621747858" duration="6663000" />
+      <workItem from="1533718778223" duration="2920000" />
+      <workItem from="1533774883767" duration="634000" />
+      <workItem from="1533978845613" duration="3227000" />
+      <workItem from="1534120588097" duration="3695000" />
+      <workItem from="1534152519623" duration="4845000" />
+      <workItem from="1534208499525" duration="7087000" />
+      <workItem from="1534329915800" duration="1221000" />
+      <workItem from="1534380423577" duration="13341000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1060773000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1458" height="870" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.944206" visible="true" weight="0.23771676" />
+      <window_info id="Structure" order="1" sideWeight="0.055793993" side_tool="true" weight="0.2384393" />
+      <window_info id="Favorites" order="2" sideWeight="0.5007153" side_tool="true" weight="0.19147399" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32954547" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="1.0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32967034" />
+      <window_info anchor="bottom" id="调试" order="7" weight="0.3283582" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="运行" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32904148" />
+      <window_info anchor="bottom" id="找到" order="11" weight="0.32686567" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" weight="0.3283582" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32804614" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32947975" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/FenhongController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="623" selection-start-line="623" selection-end-line="623" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/TradeController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7736">
+          <caret line="338" column="31" selection-start-line="338" selection-start-column="20" selection-end-line="338" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-736">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/Home/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="725" column="25" selection-start-line="725" selection-start-column="25" selection-end-line="725" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/User/nameauth.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1196">
+          <caret line="52" column="102" selection-start-line="52" selection-start-column="102" selection-end-line="52" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/User/smrz.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="112" column="51" selection-start-line="112" selection-start-column="47" selection-end-line="112" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Trade/seek_old.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-345" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Trade/seeklist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Vote/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/User/config.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/User/alipay.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2921">
+          <caret line="127" column="32" selection-start-line="127" selection-start-column="26" selection-end-line="127" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/User/payment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="897">
+          <caret line="39" column="20" selection-start-line="33" selection-start-column="10" selection-end-line="39" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/User/paypassword.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="51" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/User/seekrecord.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2024">
+          <caret line="88" column="63" selection-start-line="88" selection-start-column="63" selection-end-line="88" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/User/redrocome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1288">
+          <caret line="56" column="45" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/Admin/js/vendor/video.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/HomeController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/GameController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/FenhongController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Fenhong/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" column="8" selection-end-line="53" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Finance/myjp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1196">
+          <caret line="52" column="41" selection-start-line="52" selection-start-column="2" selection-end-line="52" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/User/traderecord.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="31" column="79" selection-start-line="31" selection-start-column="79" selection-end-line="31" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Finance/mytj.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="30" column="37" selection-end-line="241" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Finance/mywd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="989">
+          <caret line="43" column="50" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/User/bank.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-368">
+          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/ConfigController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="175" column="20" selection-start-line="175" selection-start-column="14" selection-end-line="175" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/FinanceController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="148" column="18" selection-start-line="148" selection-start-column="18" selection-end-line="148" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/QueueController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="1662" column="104" selection-start-line="1662" selection-start-column="104" selection-end-line="1662" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Trade/seek.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="448" column="16" selection-start-line="448" selection-start-column="16" selection-end-line="448" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#td#6;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#td#6;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+            <element signature="e#105#111#0" expanded="true" />
+            <element signature="e#111#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/aliyunVerifyController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/HuafeiController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-595">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/DuobaoController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-207" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/ShopController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="857" selection-start-line="857" selection-end-line="857" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/PayController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="98" column="110" selection-start-line="98" selection-start-column="110" selection-end-line="98" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/404.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/banner1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/favicon1.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Finance/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="36" column="34" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/EmptyController.class.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/TradeController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Common/Common/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="1220" column="17" selection-start-line="1220" selection-start-column="17" selection-end-line="1220" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/UserController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/User/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="29" column="66" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Trade/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="661">
+          <caret line="452" column="55" selection-start-line="452" selection-start-column="55" selection-end-line="452" selection-end-column="55" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#td#6;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#td#6;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+            <element signature="e#105#111#0" expanded="true" />
+            <element signature="e#111#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/FinanceController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="98" column="39" selection-start-line="98" selection-start-column="39" selection-end-line="98" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Finance/mycz.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="267" column="11" selection-start-line="264" selection-start-column="5" selection-end-line="267" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Finance/mytx.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="150" column="40" selection-start-line="146" selection-start-column="32" selection-end-line="150" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/AjaxController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="246" column="13" selection-start-line="246" selection-start-column="13" selection-end-line="246" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

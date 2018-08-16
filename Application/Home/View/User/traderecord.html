@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>热门大厅</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <script src="__PUBLIC__/Home/js/rem.js"></script>
+    <!-- <script src="js/mui.min.js"></script> -->
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/reset.css" />
+    <link href="__PUBLIC__/Home/css/mui.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/main.css" />
+    <link rel="stylesheet" href="__PUBLIC__/Home/iconfont/iconfont.css" />
+    <script type="text/javascript" src="__PUBLIC__/Home/js/jquery-3.3.1.js"></script>
+    <script src="__PUBLIC__/Home/js/highcharts.js"></script>
+    <script src="__PUBLIC__/layer/layer.js"></script>
+    <!-- <script src="js/textBox.min.js"></script> -->
+    <script src="__PUBLIC__/Home/js/main.js"></script>
+</head>
+<body class="gray">
+    <header class="common-header">
+        <a href="javaScript:history.go(-1)" class="back">
+            <i class="iconfont">&#xe60f;</i>
+        </a>
+        <span>交易记录</span>
+    </header>
+    <div class="mui-content">
+        <div class="hot-hall-tab">
+            <a href="javascript:void(0)" class="active">买入挂单</a>
+            <a href="javascript:void(0)">卖出挂单</a>
+            <a href="javascript:void(0)">已成交记录</a>
+        </div>
+        <p align="center" style="padding-top: .28rem;font-size: 12px;color: red">(只显示近15天的几录)</p>
+        <div class="hot-tab-con">
+            <table>
+                <thead>
+                <tr style="background-color: #ff7324;color: white">
+                        <th class="first">市场</th>
+                        <th>时间</th>
+                        <th>个数</th>
+                        <th>价格</th>
+                        <th>已交易</th>
+                        <th class="last">操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <volist name="list" id="vo">
+                    <eq name="vo['type']" value="1">
+                        <tr>
+                            <td class="first">{$vo.market}</td>
+                            <td  width="100px">{$vo.addtime|date="Y-m-d H:i:s",###}</td>
+                            <td>{$vo.num|NumToStr}</td>
+                            <td>{$vo.price|NumToStr}</td>
+                            <td>{$vo.deal|NumToStr}</td>
+                            <td class="last"><a class="cancel" id="{$vo['id']}" href="javascript:void(0);"> 撤销</a></td>
+                        </tr>
+                    </eq>
+
+                </volist>
+
+                   <!-- <tr>
+                        <td class="first">2018.6.15</td>
+                        <td>10</td>
+                        <td>40</td>
+                         <td class="last"><a href="">撤销</a></td>
+                    </tr>
+                    -->
+                </tbody>
+            </table>
+            <table style="display: none;">
+                <thead>
+
+
+                <tr style="background-color: #ff7324;color: white">
+                        <th class="first">市场</th>
+                        <th>时间</th>
+                        <th>个数</th>
+                        <th>价格</th>
+                        <th>数量</th>
+                        <th class="last">操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <volist name="list" id="vo">
+                        <eq name="vo['type']" value="2">
+                            <tr>
+                                <td class="first">{$vo.market}</td>
+                                <td class="first" width="100px">{$vo.addtime|date="Y-m-d H:i:s",###}</td>
+                                <td>{$vo.num|NumToStr}</td>
+                                <td>{$vo.price|NumToStr}</td>
+                                <td>{$vo.deal|NumToStr}</td>
+                                <td class="last"><a class="cancel" id="{$vo.id}" href="javascript:void(0);"> 撤销</a></td>
+                            </tr>
+                        </eq>
+
+                    </volist>
+
+                    
+                </tbody>
+            </table>
+            <table style="display: none;" class="trans-record">
+                <thead>
+                    <tr style="background-color: #ff7324;color: white">
+                        <th class="first">市场</th>
+                        <th >时间</th>
+                        <th>买方</th>
+                        <th>卖方</th>
+                        <th>个数</th>
+                        <th>价格</th>
+                      
+                    </tr>
+                </thead>
+                <tbody>
+                    <volist name="listlog" id="vo">
+
+                            <tr>
+                                <td class="first">{$vo.market}</td>
+                                <td class="first" width="100px">{$vo.addtime|date="Y-m-d H:i:s",###}</td>
+                                <td>ID{$vo.userid|NumToStr}</td>
+                                <td>ID{$vo.peerid|NumToStr}</td>
+                                <td>{$vo.num|NumToStr}</td>
+                                <td>{$vo.price|NumToStr}</td>
+                            </tr>
+
+                    </volist>
+                   <!-- <tr>
+                        <td class="first">2018.6</td>
+                        <td>ID:123456</td>
+                        <td>ID:123567</td>
+                        <td>40</td>
+                         <td>40.00</td>
+                    </tr>-->
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script>
+        $('.hot-hall-tab a').on('click',function(){
+            $(this).addClass('active').siblings('a').removeClass('active');
+            $('.hot-tab-con table').eq($(this).index()).show().siblings('.hot-tab-con table').hide()
+        })
+
+        $('.cancel').click(function(){
+            $.post("{:U('Trade/chexiao')}",{id : $(this).attr('id'), },function(data){
+                if(data.status==1){
+                    layer.msg(data.info,{icon : 1 });
+                    window.setTimeout("window.location.reload()",1000);
+                }else{
+                    layer.msg(data.info,{icon : 2 });
+                }
+            });
+        });
+
+    </script>
+    <include file="Public:footer"/>
+</body>

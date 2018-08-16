@@ -1,0 +1,1758 @@
+[ 2018-06-30T18:02:08+08:00 ] 127.0.0.1 /User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: show tables [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `btchanges_daohang` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_daohang` WHERE `status` = 1 ORDER BY sort asc  [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cny` FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `btchanges_text` WHERE `name` = 'user_index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `content` FROM `btchanges_text` WHERE `name` = 'user_index' AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-30T18:02:11+08:00 ] 127.0.0.1 /User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cny` FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `btchanges_text` WHERE `name` = 'user_index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `content` FROM `btchanges_text` WHERE `name` = 'user_index' AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-30T18:02:13+08:00 ] 127.0.0.1 /Finance/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: blue_cny D:\www\youzuan\Application\Home\Controller\FinanceController.class.php 第 30 行.
+SQL: SELECT * FROM `btchanges_text` WHERE `name` = 'finance_index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `content` FROM `btchanges_text` WHERE `name` = 'finance_index' AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-30T18:02:17+08:00 ] 127.0.0.1 /Finance/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: blue_cny D:\www\youzuan\Application\Home\Controller\FinanceController.class.php 第 30 行.
+SQL: SELECT * FROM `btchanges_text` WHERE `name` = 'finance_index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `content` FROM `btchanges_text` WHERE `name` = 'finance_index' AND `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-06-30T18:02:19+08:00 ] 127.0.0.1 /Finance/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: blue_cny D:\www\youzuan\Application\Home\Controller\FinanceController.class.php 第 30 行.
+SQL: SELECT * FROM `btchanges_text` WHERE `name` = 'finance_index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `content` FROM `btchanges_text` WHERE `name` = 'finance_index' AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-30T18:02:21+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: SHOW COLUMNS FROM `btchanges_issue` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_issue` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-30T18:02:23+08:00 ] 127.0.0.1 /Trade/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Home\Controller\TradeController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\youzuan\Application\Home\Controller\TradeController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-30T18:02:25+08:00 ] 127.0.0.1 /Ajax/getDepth?market=gold_cny&trade_moshi=1&t=0.6794171990693174
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=1 and market ='gold_cny' group by price order by price desc limit 12; [ RunTime:0.0010s ]
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=2 and market ='gold_cny' group by price order by price asc limit 12; [ RunTime:0.0000s ]
+
+[ 2018-06-30T18:02:26+08:00 ] 127.0.0.1 /Finance/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: blue_cny D:\www\youzuan\Application\Home\Controller\FinanceController.class.php 第 30 行.
+SQL: SELECT * FROM `btchanges_text` WHERE `name` = 'finance_index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `content` FROM `btchanges_text` WHERE `name` = 'finance_index' AND `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-30T18:02:29+08:00 ] 127.0.0.1 /Trade/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\TradeController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\youzuan\Application\Home\Controller\TradeController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-30T18:02:31+08:00 ] 127.0.0.1 /Ajax/getDepth?market=gold_cny&trade_moshi=1&t=0.5762872624944142
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=1 and market ='gold_cny' group by price order by price desc limit 12; [ RunTime:0.0020s ]
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=2 and market ='gold_cny' group by price order by price asc limit 12; [ RunTime:0.0010s ]
+
+[ 2018-06-30T18:02:33+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: SHOW COLUMNS FROM `btchanges_issue` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_issue` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-30T18:27:53+08:00 ] 127.0.0.1 /Trade/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\TradeController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\youzuan\Application\Home\Controller\TradeController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-30T18:27:55+08:00 ] 127.0.0.1 /Ajax/getDepth?market=gold_cny&trade_moshi=1&t=0.2845577591673578
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=1 and market ='gold_cny' group by price order by price desc limit 12; [ RunTime:0.0020s ]
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=2 and market ='gold_cny' group by price order by price asc limit 12; [ RunTime:0.0010s ]
+
+[ 2018-06-30T18:28:01+08:00 ] 127.0.0.1 /Ajax/getDepth?market=gold_cny&trade_moshi=1&t=0.6230311084624718
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=1 and market ='gold_cny' group by price order by price desc limit 12; [ RunTime:0.0010s ]
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=2 and market ='gold_cny' group by price order by price asc limit 12; [ RunTime:0.0010s ]
+
+[ 2018-06-30T18:28:07+08:00 ] 127.0.0.1 /Ajax/getDepth?market=gold_cny&trade_moshi=1&t=0.8387373087438244
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=1 and market ='gold_cny' group by price order by price desc limit 12; [ RunTime:0.0020s ]
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=2 and market ='gold_cny' group by price order by price asc limit 12; [ RunTime:0.0000s ]
+
+[ 2018-06-30T18:28:13+08:00 ] 127.0.0.1 /Ajax/getDepth?market=gold_cny&trade_moshi=1&t=0.011129621320913108
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=1 and market ='gold_cny' group by price order by price desc limit 12; [ RunTime:0.0010s ]
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=2 and market ='gold_cny' group by price order by price asc limit 12; [ RunTime:0.0010s ]
+
+[ 2018-06-30T18:28:19+08:00 ] 127.0.0.1 /Ajax/getDepth?market=gold_cny&trade_moshi=1&t=0.9697222927385871
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=1 and market ='gold_cny' group by price order by price desc limit 12; [ RunTime:0.0020s ]
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=2 and market ='gold_cny' group by price order by price asc limit 12; [ RunTime:0.0010s ]
+
+[ 2018-06-30T18:28:25+08:00 ] 127.0.0.1 /Ajax/getDepth?market=gold_cny&trade_moshi=1&t=0.5828508574327671
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=1 and market ='gold_cny' group by price order by price desc limit 12; [ RunTime:0.0020s ]
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=2 and market ='gold_cny' group by price order by price asc limit 12; [ RunTime:0.0010s ]
+
+[ 2018-06-30T18:28:31+08:00 ] 127.0.0.1 /Ajax/getDepth?market=gold_cny&trade_moshi=1&t=0.8171636820908363
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=1 and market ='gold_cny' group by price order by price desc limit 12; [ RunTime:0.0020s ]
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=2 and market ='gold_cny' group by price order by price asc limit 12; [ RunTime:0.0000s ]
+
+[ 2018-06-30T18:28:37+08:00 ] 127.0.0.1 /Ajax/getDepth?market=gold_cny&trade_moshi=1&t=0.9499140722898967
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=1 and market ='gold_cny' group by price order by price desc limit 12; [ RunTime:0.0010s ]
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=2 and market ='gold_cny' group by price order by price asc limit 12; [ RunTime:0.0010s ]
+
+[ 2018-06-30T18:28:42+08:00 ] 127.0.0.1 /Ajax/getDepth?market=gold_cny&trade_moshi=1&t=0.6566209001917804
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=1 and market ='gold_cny' group by price order by price desc limit 12; [ RunTime:0.0000s ]
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=2 and market ='gold_cny' group by price order by price asc limit 12; [ RunTime:0.0010s ]
+
+[ 2018-06-30T18:28:49+08:00 ] 127.0.0.1 /Ajax/getDepth?market=gold_cny&trade_moshi=1&t=0.45088025947440813
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=1 and market ='gold_cny' group by price order by price desc limit 12; [ RunTime:0.0020s ]
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=2 and market ='gold_cny' group by price order by price asc limit 12; [ RunTime:0.0000s ]
+
+[ 2018-06-30T18:28:55+08:00 ] 127.0.0.1 /Ajax/getDepth?market=gold_cny&trade_moshi=1&t=0.41816418176895986
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=1 and market ='gold_cny' group by price order by price desc limit 12; [ RunTime:0.0010s ]
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=2 and market ='gold_cny' group by price order by price asc limit 12; [ RunTime:0.0010s ]
+
+[ 2018-06-30T18:29:01+08:00 ] 127.0.0.1 /Ajax/getDepth?market=gold_cny&trade_moshi=1&t=0.45926243314290094
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=1 and market ='gold_cny' group by price order by price desc limit 12; [ RunTime:0.0020s ]
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=2 and market ='gold_cny' group by price order by price asc limit 12; [ RunTime:0.0000s ]
+
+[ 2018-06-30T18:29:07+08:00 ] 127.0.0.1 /Ajax/getDepth?market=gold_cny&trade_moshi=1&t=0.7640937844213345
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=1 and market ='gold_cny' group by price order by price desc limit 12; [ RunTime:0.0020s ]
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=2 and market ='gold_cny' group by price order by price asc limit 12; [ RunTime:0.0010s ]
+
+[ 2018-06-30T18:29:13+08:00 ] 127.0.0.1 /Ajax/getDepth?market=gold_cny&trade_moshi=1&t=0.2999849328181088
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=1 and market ='gold_cny' group by price order by price desc limit 12; [ RunTime:0.0020s ]
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=2 and market ='gold_cny' group by price order by price asc limit 12; [ RunTime:0.0010s ]
+
+[ 2018-06-30T18:29:19+08:00 ] 127.0.0.1 /Ajax/getDepth?market=gold_cny&trade_moshi=1&t=0.2861919095372254
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=1 and market ='gold_cny' group by price order by price desc limit 12; [ RunTime:0.0010s ]
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=2 and market ='gold_cny' group by price order by price asc limit 12; [ RunTime:0.0000s ]
+
+[ 2018-06-30T18:29:25+08:00 ] 127.0.0.1 /Ajax/getDepth?market=gold_cny&trade_moshi=1&t=0.07320178132224564
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=1 and market ='gold_cny' group by price order by price desc limit 12; [ RunTime:0.0010s ]
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=2 and market ='gold_cny' group by price order by price asc limit 12; [ RunTime:0.0000s ]
+
+[ 2018-06-30T18:29:27+08:00 ] 127.0.0.1 /Trade/upTrade.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\TradeController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\www\youzuan\Application\Home\Controller\TradeController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: set autocommit=0 [ RunTime:0.0000s ]
+SQL: lock tables btchanges_trade write ,btchanges_user_coin write ,btchanges_finance write [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = '101627' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_finance` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_finance` WHERE `userid` = '101627' ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = '101627' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0130s ]
+SQL: UPDATE `btchanges_user_coin` SET `cny`=cny-5.25 WHERE `userid` = '101627' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0140s ]
+SQL: UPDATE `btchanges_user_coin` SET `cnyd`=cnyd+5.25 WHERE `userid` = '101627' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_trade` [ RunTime:0.0140s ]
+SQL: INSERT INTO `btchanges_trade` (`userid`,`market`,`price`,`num`,`mum`,`fee`,`type`,`addtime`,`status`) VALUES ('101627','gold_cny','5','1','5.25','0.25','1','1530354567','0') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = '101627' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant MSCODE - assumed 'MSCODE' D:\www\youzuan\Application\Home\Controller\TradeController.class.php 第 320 行.
+SQL: SHOW COLUMNS FROM `btchanges_finance` [ RunTime:0.0130s ]
+SQL: INSERT INTO `btchanges_finance` (`userid`,`coinname`,`num_a`,`num_b`,`num`,`fee`,`type`,`name`,`nameid`,`remark`,`mum_a`,`mum_b`,`mum`,`move`,`addtime`,`status`) VALUES ('101627','cny','6.90000000','0.00000000','6.9','5.25','2','trade','634','交易中心-委托买入-市场gold_cny','1.65000000','5.25000000','6.9','f38d3ffcb60b9a411128fbebf37add8e','1530354567','1') [ RunTime:0.0000s ]
+SQL: commit [ RunTime:0.0420s ]
+SQL: unlock tables [ RunTime:0.0000s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `name` = 'cny' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_trade` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_trade` WHERE `market` = 'gold_cny' AND `type` = 1 AND `status` = 0 ORDER BY price desc,id asc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_trade` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_trade` WHERE `market` = 'gold_cny' AND `type` = 2 AND `status` = 0 ORDER BY price asc,id asc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: set autocommit=0 [ RunTime:0.0000s ]
+SQL: lock tables btchanges_trade write ,btchanges_trade_log write ,btchanges_user write,btchanges_user_coin write,btchanges_invit write ,btchanges_finance write [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_trade` [ RunTime:0.0130s ]
+SQL: UPDATE `btchanges_trade` SET `deal`=deal+1 WHERE `id` = '634' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_trade` [ RunTime:0.0120s ]
+SQL: UPDATE `btchanges_trade` SET `deal`=deal+1 WHERE `id` = '633' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_trade_log` [ RunTime:0.0140s ]
+SQL: INSERT INTO `btchanges_trade_log` (`userid`,`peerid`,`market`,`price`,`num`,`mum`,`type`,`fee_buy`,`fee_sell`,`addtime`,`status`) VALUES ('101627','101627','gold_cny','1','1','1','1','0.05','0.05','1530354567','1') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0130s ]
+SQL: UPDATE `btchanges_user_coin` SET `gold`=gold+1 WHERE `userid` = '101627' [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_finance` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_finance` WHERE `userid` = '101627' ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = '101627' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0120s ]
+SQL: UPDATE `btchanges_user_coin` SET `cnyd`=cnyd-1.05 WHERE `userid` = '101627' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = '101627' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant MSCODE - assumed 'MSCODE' D:\www\youzuan\Application\Home\Controller\TradeController.class.php 第 561 行.
+SQL: SHOW COLUMNS FROM `btchanges_finance` [ RunTime:0.0140s ]
+SQL: INSERT INTO `btchanges_finance` (`userid`,`coinname`,`num_a`,`num_b`,`num`,`fee`,`type`,`name`,`nameid`,`remark`,`mum_a`,`mum_b`,`mum`,`move`,`addtime`,`status`) VALUES ('101627','cny','1.65000000','5.25000000','6.9','1.05','2','tradelog','263','交易中心-成功买入-市场gold_cny','1.65000000','4.20000000','5.85','8e1a03f787393c1a672be099312026fa','1530354567','1') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_finance` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_finance` WHERE `userid` = '101627' ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = '101627' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0130s ]
+SQL: UPDATE `btchanges_user_coin` SET `cny`=cny+0.95 WHERE `userid` = '101627' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = '101627' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant MSCODE - assumed 'MSCODE' D:\www\youzuan\Application\Home\Controller\TradeController.class.php 第 574 行.
+SQL: SHOW COLUMNS FROM `btchanges_finance` [ RunTime:0.0130s ]
+SQL: INSERT INTO `btchanges_finance` (`userid`,`coinname`,`num_a`,`num_b`,`num`,`fee`,`type`,`name`,`nameid`,`remark`,`mum_a`,`mum_b`,`mum`,`move`,`addtime`,`status`) VALUES ('101627','cny','1.65000000','4.20000000','5.85','1.05','1','tradelog','263','交易中心-成功卖出-市场gold_cny','2.60000000','4.20000000','6.8','9a69feeb075612418344be58b7908501','1530354567','1') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0140s ]
+SQL: UPDATE `btchanges_user_coin` SET `goldd`=goldd-1 WHERE `userid` = '101627' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_trade` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_trade` WHERE `id` = '634' AND `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_trade` [ RunTime:0.0150s ]
+SQL: UPDATE `btchanges_trade` SET `status`='1' WHERE `id` = '634' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_trade` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_trade` WHERE `id` = '633' AND `status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_trade` [ RunTime:0.0130s ]
+SQL: UPDATE `btchanges_trade` SET `status`='1' WHERE `id` = '633' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = '101627' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0140s ]
+SQL: UPDATE `btchanges_user_coin` SET `cnyd`=cnyd-4.2 WHERE `userid` = '101627' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0140s ]
+SQL: UPDATE `btchanges_user_coin` SET `cny`=cny+4.2 WHERE `userid` = '101627' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_trade` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_trade` WHERE `market` LIKE '%cny%' AND `status` = 0 AND `userid` = '101627' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_trade` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_trade` WHERE `market` LIKE '%gold%' AND `status` = 0 AND `userid` = '101627' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = '101627' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = '101627' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101620 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0130s ]
+SQL: UPDATE `btchanges_user_coin` SET `cny`=cny+0.00025 WHERE `userid` = '101620' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_invit` [ RunTime:0.0110s ]
+SQL: INSERT INTO `btchanges_invit` (`userid`,`invit`,`name`,`type`,`num`,`mum`,`fee`,`addtime`,`status`) VALUES ('101620','101627','一代买入赠送','gold_cny买入交易赠送','1','1','0.00025','1530354567','1') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101620 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_finance` [ RunTime:0.0130s ]
+SQL: INSERT INTO `btchanges_finance` (`userid`,`coinname`,`num_a`,`num_b`,`num`,`fee`,`type`,`name`,`nameid`,`remark`,`mum_a`,`mum_b`,`mum`,`move`,`addtime`,`status`) VALUES ('101620','cny','206.80505350','0.00000000','206.8050535','0.00025','2','tradelogreward','263','交易返奖gold_cny','206.80530350','0.00000000','206.8053035','6d1e043e4b61514818a0b7d9ce165dc2','1530354567','1') [ RunTime:0.0010s ]
+SQL: commit [ RunTime:0.0280s ]
+SQL: unlock tables [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Runtime/Temp/9b1fbb03e89ffbd3c4aaea3bfd185d77.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+NOTIC: [2] unlink(./Runtime/Temp/88b35d39a5b07981986278ec6cc2ea52.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+NOTIC: [2] unlink(./Runtime/Temp/a8c31a616a3d98afc7c8565993cdf9bc.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+NOTIC: [2] unlink(./Runtime/Temp/d50481914f4eb6cdec4ea0e616f4c803.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+NOTIC: [2] unlink(./Runtime/Temp/603a6341da9e5bcf074e5e5ccdee195d.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+NOTIC: [2] unlink(./Runtime/Temp/74a54f02f319f780dd86b54fa0eb83eb.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+NOTIC: [2] unlink(./Runtime/Temp/6a04c3de14a157d6cd9bb0dc7e192f37.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+NOTIC: [2] unlink(./Runtime/Temp/910c3c38442a1e5e2407cec487f59739.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+NOTIC: [2] unlink(./Runtime/Temp/9ce2472db8c3b3d94511365004ce8468.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: SHOW COLUMNS FROM `btchanges_trade` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_trade` WHERE `market` = 'gold_cny' AND `type` = 1 AND `status` = 0 ORDER BY price desc,id asc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_trade` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_trade` WHERE `market` = 'gold_cny' AND `type` = 2 AND `status` = 0 ORDER BY price asc,id asc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_trade_log` [ RunTime:0.0140s ]
+SQL: SELECT `price` FROM `btchanges_trade_log` WHERE `market` = 'gold_cny' AND `status` = 1 ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_trade` [ RunTime:0.0110s ]
+SQL: SELECT MAX(price) AS tp_max FROM `btchanges_trade` WHERE `type` = 1 AND `market` = 'gold_cny' AND `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT MIN(price) AS tp_min FROM `btchanges_trade` WHERE `type` = 2 AND `market` = 'gold_cny' AND `status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT MIN(price) AS tp_min FROM `btchanges_trade_log` WHERE `market` = 'gold_cny' AND `addtime` > 1530268167 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT MAX(price) AS tp_max FROM `btchanges_trade_log` WHERE `market` = 'gold_cny' AND `addtime` > 1530268167 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_trade_log` WHERE `market` = 'gold_cny' AND `addtime` > 1530268167 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `btchanges_trade_log` WHERE `market` = 'gold_cny' AND `status` = 1 AND `addtime` > 1530268167 ORDER BY id asc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `name` = 'gold_cny' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\www\youzuan\Application\Home\Controller\TradeController.class.php 第 816 行.
+SQL: UPDATE `btchanges_market` SET `sell_price`='5',`volume`='2',`change`='0' WHERE `name` = 'gold_cny' [ RunTime:0.0000s ]
+SQL: commit [ RunTime:0.0380s ]
+
+[ 2018-06-30T18:29:31+08:00 ] 127.0.0.1 /Ajax/getDepth?market=gold_cny&trade_moshi=1&t=0.6310503973021493
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=1 and market ='gold_cny' group by price order by price desc limit 12; [ RunTime:0.0020s ]
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=2 and market ='gold_cny' group by price order by price asc limit 12; [ RunTime:0.0000s ]
+
+[ 2018-06-30T18:29:37+08:00 ] 127.0.0.1 /Ajax/getDepth?market=gold_cny&trade_moshi=1&t=0.2656981081633911
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=1 and market ='gold_cny' group by price order by price desc limit 12; [ RunTime:0.0020s ]
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=2 and market ='gold_cny' group by price order by price asc limit 12; [ RunTime:0.0000s ]
+
+[ 2018-06-30T18:29:43+08:00 ] 127.0.0.1 /Ajax/getDepth?market=gold_cny&trade_moshi=1&t=0.4558022689904615
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=1 and market ='gold_cny' group by price order by price desc limit 12; [ RunTime:0.0010s ]
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=2 and market ='gold_cny' group by price order by price asc limit 12; [ RunTime:0.0000s ]
+
+[ 2018-06-30T18:29:52+08:00 ] 127.0.0.1 /Ajax/getDepth?market=gold_cny&trade_moshi=1&t=0.5781659524173088
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=1 and market ='gold_cny' group by price order by price desc limit 12; [ RunTime:0.0030s ]
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=2 and market ='gold_cny' group by price order by price asc limit 12; [ RunTime:0.0000s ]
+
+[ 2018-06-30T18:29:58+08:00 ] 127.0.0.1 /Ajax/getDepth?market=gold_cny&trade_moshi=1&t=0.26565367210667556
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=1 and market ='gold_cny' group by price order by price desc limit 12; [ RunTime:0.0020s ]
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=2 and market ='gold_cny' group by price order by price asc limit 12; [ RunTime:0.0000s ]
+
+[ 2018-06-30T18:30:05+08:00 ] 127.0.0.1 /Ajax/getDepth?market=gold_cny&trade_moshi=1&t=0.9430363452486887
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=1 and market ='gold_cny' group by price order by price desc limit 12; [ RunTime:0.0010s ]
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=2 and market ='gold_cny' group by price order by price asc limit 12; [ RunTime:0.0000s ]
+
+[ 2018-06-30T18:30:12+08:00 ] 127.0.0.1 /Ajax/getDepth?market=gold_cny&trade_moshi=1&t=0.6227736480216495
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=1 and market ='gold_cny' group by price order by price desc limit 12; [ RunTime:0.0010s ]
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=2 and market ='gold_cny' group by price order by price asc limit 12; [ RunTime:0.0010s ]
+
+[ 2018-06-30T18:30:20+08:00 ] 127.0.0.1 /Ajax/getDepth?market=gold_cny&trade_moshi=1&t=0.6986668074048155
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=1 and market ='gold_cny' group by price order by price desc limit 12; [ RunTime:0.0010s ]
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=2 and market ='gold_cny' group by price order by price asc limit 12; [ RunTime:0.0010s ]
+
+[ 2018-06-30T18:30:28+08:00 ] 127.0.0.1 /Ajax/getDepth?market=gold_cny&trade_moshi=1&t=0.3574489717890523
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=1 and market ='gold_cny' group by price order by price desc limit 12; [ RunTime:0.0020s ]
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=2 and market ='gold_cny' group by price order by price asc limit 12; [ RunTime:0.0000s ]
+
+[ 2018-06-30T18:30:35+08:00 ] 127.0.0.1 /Ajax/getDepth?market=gold_cny&trade_moshi=1&t=0.49202560295583586
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=1 and market ='gold_cny' group by price order by price desc limit 12; [ RunTime:0.0020s ]
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=2 and market ='gold_cny' group by price order by price asc limit 12; [ RunTime:0.0000s ]
+
+[ 2018-06-30T18:30:42+08:00 ] 127.0.0.1 /Ajax/getDepth?market=gold_cny&trade_moshi=1&t=0.8735463900600162
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=1 and market ='gold_cny' group by price order by price desc limit 12; [ RunTime:0.0020s ]
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=2 and market ='gold_cny' group by price order by price asc limit 12; [ RunTime:0.0000s ]
+
+[ 2018-06-30T18:30:49+08:00 ] 127.0.0.1 /Ajax/getDepth?market=gold_cny&trade_moshi=1&t=0.31398952614152487
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=1 and market ='gold_cny' group by price order by price desc limit 12; [ RunTime:0.0020s ]
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=2 and market ='gold_cny' group by price order by price asc limit 12; [ RunTime:0.0000s ]
+
+[ 2018-06-30T18:30:57+08:00 ] 127.0.0.1 /Ajax/getDepth?market=gold_cny&trade_moshi=1&t=0.39980078217204973
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=1 and market ='gold_cny' group by price order by price desc limit 12; [ RunTime:0.0010s ]
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=2 and market ='gold_cny' group by price order by price asc limit 12; [ RunTime:0.0010s ]
+
+[ 2018-06-30T18:31:04+08:00 ] 127.0.0.1 /Ajax/getDepth?market=gold_cny&trade_moshi=1&t=0.9660124937692638
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=1 and market ='gold_cny' group by price order by price desc limit 12; [ RunTime:0.0020s ]
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=2 and market ='gold_cny' group by price order by price asc limit 12; [ RunTime:0.0000s ]
+
+[ 2018-06-30T18:31:11+08:00 ] 127.0.0.1 /Ajax/getDepth?market=gold_cny&trade_moshi=1&t=0.6143486364631576
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=1 and market ='gold_cny' group by price order by price desc limit 12; [ RunTime:0.0010s ]
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=2 and market ='gold_cny' group by price order by price asc limit 12; [ RunTime:0.0010s ]
+
+[ 2018-06-30T18:31:18+08:00 ] 127.0.0.1 /Ajax/getDepth?market=gold_cny&trade_moshi=1&t=0.8063989005045262
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=1 and market ='gold_cny' group by price order by price desc limit 12; [ RunTime:0.0020s ]
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=2 and market ='gold_cny' group by price order by price asc limit 12; [ RunTime:0.0000s ]
+
+[ 2018-06-30T18:31:25+08:00 ] 127.0.0.1 /Ajax/getDepth?market=gold_cny&trade_moshi=1&t=0.3985950561909253
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=1 and market ='gold_cny' group by price order by price desc limit 12; [ RunTime:0.0020s ]
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=2 and market ='gold_cny' group by price order by price asc limit 12; [ RunTime:0.0000s ]
+
+[ 2018-06-30T18:31:32+08:00 ] 127.0.0.1 /Ajax/getDepth?market=gold_cny&trade_moshi=1&t=0.9207147886674185
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=1 and market ='gold_cny' group by price order by price desc limit 12; [ RunTime:0.0020s ]
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=2 and market ='gold_cny' group by price order by price asc limit 12; [ RunTime:0.0000s ]
+
+[ 2018-06-30T18:31:39+08:00 ] 127.0.0.1 /Ajax/getDepth?market=gold_cny&trade_moshi=1&t=0.09786965798761393
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=1 and market ='gold_cny' group by price order by price desc limit 12; [ RunTime:0.0020s ]
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=2 and market ='gold_cny' group by price order by price asc limit 12; [ RunTime:0.0000s ]
+
+[ 2018-06-30T18:31:46+08:00 ] 127.0.0.1 /Ajax/getDepth?market=gold_cny&trade_moshi=1&t=0.15442788313265443
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=1 and market ='gold_cny' group by price order by price desc limit 12; [ RunTime:0.0020s ]
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=2 and market ='gold_cny' group by price order by price asc limit 12; [ RunTime:0.0000s ]
+
+[ 2018-06-30T18:31:53+08:00 ] 127.0.0.1 /Ajax/getDepth?market=gold_cny&trade_moshi=1&t=0.7377606430961074
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=1 and market ='gold_cny' group by price order by price desc limit 12; [ RunTime:0.0020s ]
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=2 and market ='gold_cny' group by price order by price asc limit 12; [ RunTime:0.0000s ]
+
+[ 2018-06-30T18:32:00+08:00 ] 127.0.0.1 /Ajax/getDepth?market=gold_cny&trade_moshi=1&t=0.9320406530652616
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=1 and market ='gold_cny' group by price order by price desc limit 12; [ RunTime:0.0020s ]
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=2 and market ='gold_cny' group by price order by price asc limit 12; [ RunTime:0.0000s ]
+
+[ 2018-06-30T18:32:07+08:00 ] 127.0.0.1 /Ajax/getDepth?market=gold_cny&trade_moshi=1&t=0.1344956416968328
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=1 and market ='gold_cny' group by price order by price desc limit 12; [ RunTime:0.0010s ]
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=2 and market ='gold_cny' group by price order by price asc limit 12; [ RunTime:0.0000s ]
+
+[ 2018-06-30T18:32:14+08:00 ] 127.0.0.1 /Ajax/getDepth?market=gold_cny&trade_moshi=1&t=0.05805324245426058
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=1 and market ='gold_cny' group by price order by price desc limit 12; [ RunTime:0.0010s ]
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=2 and market ='gold_cny' group by price order by price asc limit 12; [ RunTime:0.0000s ]
+
+[ 2018-06-30T18:32:21+08:00 ] 127.0.0.1 /Ajax/getDepth?market=gold_cny&trade_moshi=1&t=0.6250943167201464
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_user` WHERE ( id = 101627 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `btchanges_user_coin` WHERE `userid` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `btchanges_user` WHERE `id` = 101627 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=1 and market ='gold_cny' group by price order by price desc limit 12; [ RunTime:0.0010s ]
+SQL: select id,price,sum(num-deal)as nums from btchanges_trade where status=0 and type=2 and market ='gold_cny' group by price order by price asc limit 12; [ RunTime:0.0000s ]
+

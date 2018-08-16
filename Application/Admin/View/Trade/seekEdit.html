@@ -1,0 +1,523 @@
+<include file="Public:header"/>
+
+<div id="main-content">
+
+    <div id="top-alert" class="fixed alert alert-error" style="display: none;">
+
+        <button class="close fixed" style="margin-top: 4px;">&times;</button>
+
+        <div class="alert-content">警告内容</div>
+
+    </div>
+
+    <div id="main" class="main">
+
+        <div class="main-title-h">
+
+            <span class="h1-title"><a href="{:U('Trade/seeklist')}">市场列表</a> >></span>
+
+
+
+            <span class="h1-title"><empty name="data">添加市场
+
+	            <else/>
+
+                                                      编辑市场
+
+            </empty></span>
+
+        </div>
+
+        <div class="tab-wrap">
+
+            <div class="tab-content">
+
+                <form id="form" action="{:U('Trade/seekEdit')}" method="post" class="form-horizontal" enctype="multipart/form-data">
+
+                    <div id="tab" class="tab-pane in tab">
+
+                        <div class="form-item cf">
+
+                            <table>
+
+                                <empty name="data['id']">
+
+                                    <tr class="controls">
+
+                                        <td class="item-label">买方币种 :</td>
+
+                                        <td><select name="buyname" class="form-control input-10x">
+
+                                            <volist name="C['coin']" id="v">
+                                                <!--<if condition="$v['name'] == cny || $v['name'] == usd || $v['name'] == btc || $v['name'] == ltc">
+
+                                                </if>-->
+                                                <option value="{$v['name']}">{$v['title']}</option>
+                                            </volist>
+
+                                        </select>
+
+                                        </td>
+
+                                        <td class="item-note">区域</td>
+
+                                    </tr>
+
+                                    <tr class="controls">
+
+                                        <td class="item-label">卖方币种 :</td>
+
+                                        <td><!--<select name="sellname" class="form-control input-10x">
+
+                                            <volist name="C['coin']" id="v">
+
+                                                <option value="{$v['name']}">{$v['title']}</option>
+
+                                            </volist>
+
+                                        </select>-->
+                                            <input name="sellname" type="text" class="form-control input-10x" >
+                                        </td>
+
+                                        <td class="item-note"></td>
+
+                                    </tr>
+
+                                    <else/>
+
+                                    <tr class="controls">
+
+                                        <td class="item-label">市场名称 :</td>
+
+                                        <td>{$data.name}</td>
+
+                                        <td class="item-note"></td>
+
+                                    </tr>
+
+                                </empty>
+
+                                <tr class="controls">
+
+                                    <td class="item-label">小数位数:</td>
+
+                                    <td>
+
+                                        <input type="text" class="form-control input-10x" name="round" value="{$data.round}">
+
+                                    </td>
+
+                                    <td class="item-note">填1--6整数，比如填3就表示3位小数</td>
+
+                                </tr>
+                                <tr class="controls">
+                                    <td class="item-label">图标 :</td>
+                                    <td>
+                                        <div id="addpicContainer">
+                                            <!-- 利用multiple="multiple"属性实现添加多图功能 -->
+                                            <!-- position: absolute;left: 10px;top: 5px;只针对本用例将input隐至图片底下。-->
+                                            <!-- height:0;width:0;z-index: -1;是为了隐藏input，因为Chrome下不能使用display:none，否则无法添加文件 -->
+                                            <!-- onclick="getElementById('inputfile').click()" 点击图片时则点击添加文件按钮 -->
+                                            <notempty name="data.img">
+                                                <!--没有图片显示默认图片-->
+                                                <img id="up_img" onclick="getElementById('inputfile').click()" style="cursor:pointer;max-width:500px;" title="点击添加图片" alt="点击添加图片" src="/Upload/coin/{$data.img}">
+                                                <else/>
+                                                <!--没有图片显示默认图片-->
+                                                <img id="up_img" onclick="getElementById('inputfile').click()" style="cursor:pointer;max-width:500px;" title="点击添加图片" alt="点击添加图片" src="__PUBLIC__/Admin/images/addimg.png">
+                                            </notempty>
+                                            <input type="hidden" id="img" name="img" value="{$data.img}">
+                                            <input type="file" id="inputfile" style="height:0;width:0;z-index: -1; position: absolute;left: 10px;top: 5px;" value=""/>
+                                        </div>
+                                    </td>
+                                    <td class="item-note">80px*80px</td>
+                                </tr>
+                                <tr class="controls">
+
+                                    <td class="item-label">挂单手续费:</td>
+
+                                    <td>
+
+                                        <input type="text" class="form-control input-10x" name="fee_seek" value="{$data.fee_seek}">
+
+                                    </td>
+
+                                    <td class="item-note">金钻,有挂单的时候不能再修改</td>
+
+                                </tr>
+
+
+                                <tr class="controls">
+
+                                    <td class="item-label">买入手续费:</td>
+
+                                    <td>
+
+                                        <input type="text" class="form-control input-10x" name="fee_buy" value="{$data.fee_buy}">
+
+                                    </td>
+
+                                    <td class="item-note">%有挂单的时候不能再修改</td>
+
+                                </tr>
+
+                                <tr class="controls">
+
+                                    <td class="item-label">卖出手续费:</td>
+
+                                    <td>
+
+                                        <input type="text" class="form-control input-10x" name="fee_sell" value="{$data.fee_sell}">
+
+                                    </td>
+
+                                    <td class="item-note">%有挂单的时候不能再修改</td>
+
+                                </tr>
+
+                                <tr class="controls">
+
+                                    <td class="item-label">买入最小交易价:</td>
+
+                                    <td>
+
+                                        <input type="text" class="form-control input-10x" name="buy_min" value="{$data.buy_min}">
+
+                                    </td>
+
+                                    <td class="item-note">买入最小交易价 默认0.000001</td>
+
+                                </tr>
+
+                                <tr class="controls">
+
+                                    <td class="item-label">买入最大交易价:</td>
+
+                                    <td>
+
+                                        <input type="text" class="form-control input-10x" name="buy_max" value="{$data.buy_max}">
+
+                                    </td>
+
+                                    <td class="item-note">买入最大交易价 默认1000000</td>
+
+                                </tr>
+
+                                <tr class="controls">
+
+                                    <td class="item-label">卖出最小交易价:</td>
+
+                                    <td>
+
+                                        <input type="text" class="form-control input-10x" name="sell_min" value="{$data.sell_min}">
+
+                                    </td>
+
+                                    <td class="item-note">卖出最小交易价 默认0.000001</td>
+
+                                </tr>
+
+                                <tr class="controls">
+
+                                    <td class="item-label">卖出最大交易价:</td>
+
+                                    <td>
+
+                                        <input type="text" class="form-control input-10x" name="sell_max" value="{$data.sell_max}">
+
+                                    </td>
+
+                                    <td class="item-note">卖出最大交易价 默认1000000</td>
+
+                                </tr>
+
+                                <tr class="controls">
+
+                                    <td class="item-label">单笔最小交易额:</td>
+
+                                    <td>
+
+                                        <input type="text" class="form-control input-10x" name="trade_min" value="{$data.trade_min}">
+
+                                    </td>
+
+                                    <td class="item-note">单笔最小交易额 默认1000000</td>
+
+                                </tr>
+
+                                <tr class="controls">
+
+                                    <td class="item-label">单笔最大交易额:</td>
+
+                                    <td>
+
+                                        <input type="text" class="form-control input-10x" name="trade_max" value="{$data.trade_max}">
+
+                                    </td>
+
+                                    <td class="item-note">单笔最大交易额 默认1000000</td>
+
+                                </tr>
+
+                                <tr class="controls">
+
+                                    <td class="item-label">一代赠送比例:</td>
+
+                                    <td>
+
+                                        <input type="text" class="form-control input-10x" name="invit_1" value="{$data.invit_1}">
+
+                                    </td>
+
+                                    <td class="item-note">%根据单笔交易手续费计算</td>
+
+                                </tr>
+
+                                <tr class="controls">
+
+                                    <td class="item-label">二代赠送比例:</td>
+
+                                    <td>
+
+                                        <input type="text" class="form-control input-10x" name="invit_2" value="{$data.invit_2}">
+
+                                    </td>
+
+                                    <td class="item-note">%根据单笔交易手续费计算</td>
+
+                                </tr>
+
+                                <tr class="controls">
+
+                                    <td class="item-label">三代赠送比例:</td>
+
+                                    <td>
+
+                                        <input type="text" class="form-control input-10x" name="invit_3" value="{$data.invit_3}">
+
+                                    </td>
+
+                                    <td class="item-note">%根据单笔交易手续费计算</td>
+
+                                </tr>
+
+                                <tr class="controls">
+
+                                    <td class="item-label">买家上家赠送 :</td>
+
+                                    <td><select name="invit_buy" class="form-control input-10x">
+
+                                        <option value="1"
+
+                                        <eq name="data.invit_buy" value="1">selected</eq>
+
+                                        >开启赠送</option>
+
+                                        <option value="0"
+
+                                        <eq name="data.invit_buy" value="0">selected</eq>
+
+                                        >禁止赠送</option>
+
+                                    </select></td>
+
+                                    <td class="item-note"></td>
+
+                                </tr>
+
+                                <tr class="controls">
+
+                                    <td class="item-label">卖家上家赠送 :</td>
+
+                                    <td><select name="invit_sell" class="form-control input-10x">
+
+                                        <option value="1"
+
+                                        <eq name="data.invit_sell" value="1">selected</eq>
+
+                                        >开启赠送</option>
+
+                                        <option value="0"
+
+                                        <eq name="data.invit_sell" value="0">selected</eq>
+
+                                        >禁止赠送</option>
+
+                                    </select></td>
+
+                                    <td class="item-note"></td>
+
+                                </tr>
+
+                                <tr class="controls">
+
+                                    <td class="item-label">涨幅限制:</td>
+
+                                    <td>
+
+                                        <input type="text" class="form-control input-10x" name="zhang" value="{$data.zhang}">
+
+                                    </td>
+
+                                    <td class="item-note">%根据昨日最后一笔交易计算</td>
+
+                                </tr>
+
+                                <tr class="controls">
+
+                                    <td class="item-label">跌幅限制:</td>
+
+                                    <td>
+
+                                        <input type="text" class="form-control input-10x" name="die" value="{$data.die}">
+
+                                    </td>
+
+                                    <td class="item-note">%根据昨日最后一笔交易计算</td>
+
+                                </tr>
+
+                                <tr class="controls">
+
+                                    <td class="item-label">开启交易 :</td>
+
+                                    <td><select name="trade" class="form-control input-10x">
+
+                                        <option value="1"
+
+                                        <eq name="data.trade" value="1">selected</eq>
+
+                                        >开启交易</option>
+
+                                        <option value="0"
+
+                                        <eq name="data.trade" value="0">selected</eq>
+
+                                        >禁止交易</option>
+
+                                    </select></td>
+
+                                    <td class="item-note"></td>
+
+                                </tr>
+
+                                <tr class="controls">
+
+                                    <td class="item-label">状态 :</td>
+
+                                    <td><select name="status" class="form-control input-10x">
+
+                                        <option value="1"
+
+                                        <eq name="data.status" value="1">selected</eq>
+
+                                        >可用</option>
+
+                                        <option value="0"
+
+                                        <eq name="data.status" value="0">selected</eq>
+
+                                        >禁用</option>
+
+                                    </select></td>
+
+                                    <td class="item-note"></td>
+
+                                </tr>
+
+                                <tr class="controls">
+
+                                    <td class="item-label"></td>
+
+                                    <td>
+
+                                        <div class="form-item cf">
+
+                                            <button class="btn submit-btn ajax-post" id="submit" type="submit" target-form="form-horizontal">确 定
+
+                                            </button>
+
+                                            <a class="btn btn-return" href="{$Think.server.HTTP_REFERER}">返 回</a>
+
+                                            <notempty name="data.id"><input type="hidden" name="id" value="{$data.id}"/>
+
+                                            </notempty>
+
+                                        </div>
+
+                                    </td>
+
+                                </tr>
+
+                            </table>
+
+                        </div>
+
+                    </div>
+
+                </form>
+
+                <script type="text/javascript">
+
+                    //提交表单
+
+                    $('#submit').click(function () {
+
+                        $('#form').submit();
+
+                    });
+
+                </script>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<include file="Public:footer"/>
+<script type="text/javascript">
+    $(document).ready(function () {
+        //响应文件添加成功事件
+        $("#inputfile").change(function () {
+            //创建FormData对象
+            var data = new FormData();
+            //为FormData对象添加数据
+            $.each($('#inputfile')[0].files, function (i, file) {
+                data.append('upload_file' + i, file);
+            });
+            //发送数据
+            $.ajax({
+                url: '/Admin/Config/coinImage',
+                type: 'POST',
+                data: data,
+                cache: false,
+                contentType: false,		//不可缺参数
+                processData: false,		//不可缺参数
+                success: function (data) {
+                    if (data) {
+                        $('#up_img').attr("src", '/Upload/coin/' + data);
+                        $('#img').val(data);
+                        $('#up_img').show();
+                    }
+                },
+                error: function () {
+                    alert('上传出错');
+                    $(".loading").hide();	//加载失败移除加载图片
+                }
+            });
+        });
+    });
+</script>
+<block name="script">
+
+    <script type="text/javascript" charset="utf-8">
+
+        //导航高亮
+
+        highlight_subnav("{:U('Trade/market')}");
+
+    </script>
+
+</block>

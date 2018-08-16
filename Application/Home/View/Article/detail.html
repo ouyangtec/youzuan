@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>公告详情</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<script src="__PUBLIC__/Home/js/rem.js"></script>
+	<!-- <script src="js/mui.min.js"></script> -->
+	<link rel="stylesheet" href="__PUBLIC__/Home/css/reset.css" />
+	<link href="__PUBLIC__/Home/css/mui.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="__PUBLIC__/Home/css/main.css" />
+	<link rel="stylesheet" href="__PUBLIC__/Home/iconfont/iconfont.css" />
+	<script type="text/javascript" src="__PUBLIC__/Home/js/jquery-3.3.1.js"></script>
+	<script src="__PUBLIC__/Home/js/highcharts.js"></script>
+	<script src="__PUBLIC__/layer/layer.js"></script>
+	<script src="__PUBLIC__/Home/js/main.js"></script>
+</head>
+<body>
+	<header class="fixed news-header">
+		<a href="javaScript:history.go(-1)" class="back"><i class="iconfont">&#xe647;</i></a>
+		<span class="tit">公告</span>
+	</header>
+
+		<div class="news-content news-detail-con">
+			<h3>{$data.title}</h3>
+			<span>发布时间：{$data.addtime|date="Y-m-d H:i:s",###}</span>
+			<!--//<img src="images/pic1.jpeg" alt="">-->
+			<div class="news-detail">
+				<p>{$data['content']}</p>
+
+			</div>
+		</div>
+	</div>
+</body>

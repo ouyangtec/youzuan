@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>发布</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<script src="__PUBLIC__/Home/js/rem.js"></script>
+	<!-- <script src="js/mui.min.js"></script> -->
+	<link rel="stylesheet" href="__PUBLIC__/Home/css/reset.css" />
+	<link href="__PUBLIC__/Home/css/mui.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="__PUBLIC__/Home/css/main.css" />
+	<link rel="stylesheet" href="__PUBLIC__/Home/iconfont/iconfont.css" />
+	<script type="text/javascript" src="__PUBLIC__/Home/js/jquery-3.3.1.js"></script>
+	<script src="__PUBLIC__/layer/layer.js"></script>
+	<script src="__PUBLIC__/Home/js/main.js"></script>
+</head>
+<body>
+<header class="seek-header header">
+	<a href="javaScript:history.go(-1)" class="back">
+		<i class="iconfont">&#xe60f;</i>
+	</a>
+	<span><a href="release?market={$market}">发布求购</a></span>
+</header>
+<div class="mui-content seek-con">
+	<table>
+		<thead>
+		<tr>
+			<th>会员id</th>
+			<th>单价(求购)</th>
+			<th>数量(求购)</th>
+			<th>出售</th>
+		</tr>
+		</thead>
+
+		<tbody>
+		<volist name="list" id="vo">
+			<tr>
+				<td>ID{$vo.userid}</td>
+				<td>{$vo.price}</td>
+				<td>{$vo.num}</td>
+				<td><a href="sell?id={$vo.id}">出售</a></td>
+			</tr>
+		</volist>
+
+		</tbody>
+	</table>
+</div>
+</body>

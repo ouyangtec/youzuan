@@ -1,0 +1,1207 @@
+[ 2018-08-07T14:05:39+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T14:08:19+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T14:10:59+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T14:13:39+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T14:16:19+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T14:18:59+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T14:21:39+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T14:24:20+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T14:26:59+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T14:29:39+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T14:32:19+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T14:34:59+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T14:37:39+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T14:40:19+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T14:42:59+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T14:45:39+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T14:48:19+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T14:50:59+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T14:53:39+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T14:56:19+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T14:58:59+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T15:01:39+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T15:04:19+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T15:06:59+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T15:09:39+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T15:12:19+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T15:14:59+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T15:17:39+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T15:20:19+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T15:22:59+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T15:25:39+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T15:28:19+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T15:30:59+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T15:33:39+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T15:36:19+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T15:36:53+08:00 ] 127.0.0.1 /admin/login?btchanges=linsion
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-07T15:36:54+08:00 ] 127.0.0.1 /Admin/Verify/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-07T15:37:02+08:00 ] 127.0.0.1 /Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `btchanges_admin` [ RunTime:0.0600s ]
+SQL: SELECT * FROM `btchanges_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-08-07T15:37:06+08:00 ] 127.0.0.1 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_version` [ RunTime:0.0590s ]
+SQL: SELECT `name` FROM `btchanges_version` WHERE `status` = 0 ORDER BY name desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0480s ]
+SQL: SELECT * FROM `btchanges_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `btchanges_menu` WHERE ( url like 'Index/index%' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid`,`title` FROM `btchanges_menu` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  `group` FROM `btchanges_menu` WHERE ( pid = 1 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`url` FROM `btchanges_menu` WHERE `pid` = 1 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '系统' AND `pid` = 1 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` LIMIT 1   [ RunTime:0.1260s ]
+SQL: SHOW COLUMNS FROM `btchanges_user_coin` [ RunTime:0.0110s ]
+SQL: SELECT SUM(cny) AS tp_sum FROM `btchanges_user_coin` LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT SUM(cnyd) AS tp_sum FROM `btchanges_user_coin` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_trade_log` [ RunTime:0.0120s ]
+SQL: SELECT SUM(mum) AS tp_sum FROM `btchanges_trade_log` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_article` [ RunTime:0.0790s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_article` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_mycz` [ RunTime:0.0290s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1531065600 AND `addtime` < 1531152000  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_mytx` [ RunTime:0.0210s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1531065600 AND `addtime` < 1531152000  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1531152000 AND `addtime` < 1531238400  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1531152000 AND `addtime` < 1531238400  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1531238400 AND `addtime` < 1531324800  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1531238400 AND `addtime` < 1531324800  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1531324800 AND `addtime` < 1531411200  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1531324800 AND `addtime` < 1531411200  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1531411200 AND `addtime` < 1531497600  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1531411200 AND `addtime` < 1531497600  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1531497600 AND `addtime` < 1531584000  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1531497600 AND `addtime` < 1531584000  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1531584000 AND `addtime` < 1531670400  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1531584000 AND `addtime` < 1531670400  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1531670400 AND `addtime` < 1531756800  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1531670400 AND `addtime` < 1531756800  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1531756800 AND `addtime` < 1531843200  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1531756800 AND `addtime` < 1531843200  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1531843200 AND `addtime` < 1531929600  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1531843200 AND `addtime` < 1531929600  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1531929600 AND `addtime` < 1532016000  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1531929600 AND `addtime` < 1532016000  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1532016000 AND `addtime` < 1532102400  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1532016000 AND `addtime` < 1532102400  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1532102400 AND `addtime` < 1532188800  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1532102400 AND `addtime` < 1532188800  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1532188800 AND `addtime` < 1532275200  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1532188800 AND `addtime` < 1532275200  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1532275200 AND `addtime` < 1532361600  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1532275200 AND `addtime` < 1532361600  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1532361600 AND `addtime` < 1532448000  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1532361600 AND `addtime` < 1532448000  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1532448000 AND `addtime` < 1532534400  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1532448000 AND `addtime` < 1532534400  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1532534400 AND `addtime` < 1532620800  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1532534400 AND `addtime` < 1532620800  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1532620800 AND `addtime` < 1532707200  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1532620800 AND `addtime` < 1532707200  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1532707200 AND `addtime` < 1532793600  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1532707200 AND `addtime` < 1532793600  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1532793600 AND `addtime` < 1532880000  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1532793600 AND `addtime` < 1532880000  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1532880000 AND `addtime` < 1532966400  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1532880000 AND `addtime` < 1532966400  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1532966400 AND `addtime` < 1533052800  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1532966400 AND `addtime` < 1533052800  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1533052800 AND `addtime` < 1533139200  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1533052800 AND `addtime` < 1533139200  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1533139200 AND `addtime` < 1533225600  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1533139200 AND `addtime` < 1533225600  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1533225600 AND `addtime` < 1533312000  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1533225600 AND `addtime` < 1533312000  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1533312000 AND `addtime` < 1533398400  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1533312000 AND `addtime` < 1533398400  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1533398400 AND `addtime` < 1533484800  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1533398400 AND `addtime` < 1533484800  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1533484800 AND `addtime` < 1533571200  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1533484800 AND `addtime` < 1533571200  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mycz` WHERE `status` <> 0 AND ( `addtime` > 1533571200 AND `addtime` < 1533657600  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `btchanges_mytx` WHERE `status` = 1 AND ( `addtime` > 1533571200 AND `addtime` < 1533657600  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1531035423 AND `addtime` < 1531121823  ) LIMIT 1   [ RunTime:0.0450s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1531121823 AND `addtime` < 1531208223  ) LIMIT 1   [ RunTime:0.0470s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1531208223 AND `addtime` < 1531294623  ) LIMIT 1   [ RunTime:0.0500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1531294623 AND `addtime` < 1531381023  ) LIMIT 1   [ RunTime:0.0440s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1531381023 AND `addtime` < 1531467423  ) LIMIT 1   [ RunTime:0.0450s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1531467423 AND `addtime` < 1531553823  ) LIMIT 1   [ RunTime:0.0450s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1531553823 AND `addtime` < 1531640223  ) LIMIT 1   [ RunTime:0.0440s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1531640223 AND `addtime` < 1531726623  ) LIMIT 1   [ RunTime:0.0490s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1531726623 AND `addtime` < 1531813023  ) LIMIT 1   [ RunTime:0.0440s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1531813023 AND `addtime` < 1531899423  ) LIMIT 1   [ RunTime:0.0450s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1531899423 AND `addtime` < 1531985823  ) LIMIT 1   [ RunTime:0.0440s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1531985823 AND `addtime` < 1532072223  ) LIMIT 1   [ RunTime:0.0440s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1532072223 AND `addtime` < 1532158623  ) LIMIT 1   [ RunTime:0.0440s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1532158623 AND `addtime` < 1532245023  ) LIMIT 1   [ RunTime:0.0460s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1532245023 AND `addtime` < 1532331423  ) LIMIT 1   [ RunTime:0.0450s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1532331423 AND `addtime` < 1532417823  ) LIMIT 1   [ RunTime:0.0460s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1532417823 AND `addtime` < 1532504223  ) LIMIT 1   [ RunTime:0.0450s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1532504223 AND `addtime` < 1532590623  ) LIMIT 1   [ RunTime:0.0440s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1532590623 AND `addtime` < 1532677023  ) LIMIT 1   [ RunTime:0.0450s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1532677023 AND `addtime` < 1532763423  ) LIMIT 1   [ RunTime:0.0440s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1532763423 AND `addtime` < 1532849823  ) LIMIT 1   [ RunTime:0.0440s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1532849823 AND `addtime` < 1532936223  ) LIMIT 1   [ RunTime:0.0450s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1532936223 AND `addtime` < 1533022623  ) LIMIT 1   [ RunTime:0.0440s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1533022623 AND `addtime` < 1533109023  ) LIMIT 1   [ RunTime:0.0440s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1533109023 AND `addtime` < 1533195423  ) LIMIT 1   [ RunTime:0.0460s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1533195423 AND `addtime` < 1533281823  ) LIMIT 1   [ RunTime:0.0500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1533281823 AND `addtime` < 1533368223  ) LIMIT 1   [ RunTime:0.0500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1533368223 AND `addtime` < 1533454623  ) LIMIT 1   [ RunTime:0.0440s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1533454623 AND `addtime` < 1533541023  ) LIMIT 1   [ RunTime:0.0460s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1533541023 AND `addtime` < 1533627423  ) LIMIT 1   [ RunTime:0.0460s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1533627423 AND `addtime` < 1533713823  ) LIMIT 1   [ RunTime:0.0440s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1533713823 AND `addtime` < 1533800223  ) LIMIT 1   [ RunTime:0.0460s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1533800223 AND `addtime` < 1533886623  ) LIMIT 1   [ RunTime:0.0440s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1533886623 AND `addtime` < 1533973023  ) LIMIT 1   [ RunTime:0.0440s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1533973023 AND `addtime` < 1534059423  ) LIMIT 1   [ RunTime:0.0460s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1534059423 AND `addtime` < 1534145823  ) LIMIT 1   [ RunTime:0.0480s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1534145823 AND `addtime` < 1534232223  ) LIMIT 1   [ RunTime:0.0460s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1534232223 AND `addtime` < 1534318623  ) LIMIT 1   [ RunTime:0.0440s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1534318623 AND `addtime` < 1534405023  ) LIMIT 1   [ RunTime:0.0440s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1534405023 AND `addtime` < 1534491423  ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1534491423 AND `addtime` < 1534577823  ) LIMIT 1   [ RunTime:0.0460s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1534577823 AND `addtime` < 1534664223  ) LIMIT 1   [ RunTime:0.0450s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1534664223 AND `addtime` < 1534750623  ) LIMIT 1   [ RunTime:0.0440s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1534750623 AND `addtime` < 1534837023  ) LIMIT 1   [ RunTime:0.0440s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1534837023 AND `addtime` < 1534923423  ) LIMIT 1   [ RunTime:0.0440s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1534923423 AND `addtime` < 1535009823  ) LIMIT 1   [ RunTime:0.0460s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1535009823 AND `addtime` < 1535096223  ) LIMIT 1   [ RunTime:0.0470s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1535096223 AND `addtime` < 1535182623  ) LIMIT 1   [ RunTime:0.0450s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1535182623 AND `addtime` < 1535269023  ) LIMIT 1   [ RunTime:0.0470s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1535269023 AND `addtime` < 1535355423  ) LIMIT 1   [ RunTime:0.0440s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1535355423 AND `addtime` < 1535441823  ) LIMIT 1   [ RunTime:0.0450s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1535441823 AND `addtime` < 1535528223  ) LIMIT 1   [ RunTime:0.0480s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1535528223 AND `addtime` < 1535614623  ) LIMIT 1   [ RunTime:0.0450s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1535614623 AND `addtime` < 1535701023  ) LIMIT 1   [ RunTime:0.0470s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1535701023 AND `addtime` < 1535787423  ) LIMIT 1   [ RunTime:0.0450s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1535787423 AND `addtime` < 1535873823  ) LIMIT 1   [ RunTime:0.0450s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1535873823 AND `addtime` < 1535960223  ) LIMIT 1   [ RunTime:0.0470s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1535960223 AND `addtime` < 1536046623  ) LIMIT 1   [ RunTime:0.0460s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1536046623 AND `addtime` < 1536133023  ) LIMIT 1   [ RunTime:0.0480s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` WHERE ( `addtime` > 1536133023 AND `addtime` < 1536219423  ) LIMIT 1   [ RunTime:0.0460s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 1 行.
+NOTIC: [8] Undefined variable: versionUp D:\www\youzuan\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 1 行.
+SQL: select version() as v; [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-07T15:37:10+08:00 ] 127.0.0.1 /Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_version` [ RunTime:0.0060s ]
+SQL: SELECT `name` FROM `btchanges_version` WHERE `status` = 0 ORDER BY name desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `btchanges_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `btchanges_menu` WHERE ( url like 'Article/index%' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0120s ]
+SQL: SELECT `id`,`pid`,`title` FROM `btchanges_menu` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  `group` FROM `btchanges_menu` WHERE ( pid = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`url` FROM `btchanges_menu` WHERE `pid` = 2 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '内容' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '提示管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '内容管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_article` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `btchanges_article` ORDER BY id desc LIMIT 0,15   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `btchanges_admin` [ RunTime:0.0110s ]
+SQL: SELECT `username` FROM `btchanges_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `username` FROM `btchanges_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `username` FROM `btchanges_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `username` FROM `btchanges_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `username` FROM `btchanges_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 1 行.
+NOTIC: [8] Undefined variable: versionUp D:\www\youzuan\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 1 行.
+NOTIC: [8] Undefined index: status D:\www\youzuan\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 1 行.
+NOTIC: [8] Undefined index: status D:\www\youzuan\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 1 行.
+NOTIC: [8] Undefined index: field D:\www\youzuan\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 1 行.
+NOTIC: [8] Undefined index: name D:\www\youzuan\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-08-07T15:37:13+08:00 ] 127.0.0.1 /Admin/Article/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_version` [ RunTime:0.0120s ]
+SQL: SELECT `name` FROM `btchanges_version` WHERE `status` = 0 ORDER BY name desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id` FROM `btchanges_menu` WHERE ( url like 'Article/index%' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid`,`title` FROM `btchanges_menu` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT DISTINCT  `group` FROM `btchanges_menu` WHERE ( pid = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`url` FROM `btchanges_menu` WHERE `pid` = 2 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '内容' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '提示管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '内容管理' AND `pid` = 2 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_article` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_article` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `btchanges_article` ORDER BY id desc LIMIT 0,15   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_admin` [ RunTime:0.0120s ]
+SQL: SELECT `username` FROM `btchanges_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `username` FROM `btchanges_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `username` FROM `btchanges_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `username` FROM `btchanges_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `username` FROM `btchanges_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `username` FROM `btchanges_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 1 行.
+NOTIC: [8] Undefined variable: versionUp D:\www\youzuan\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 1 行.
+NOTIC: [8] Undefined index: status D:\www\youzuan\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 1 行.
+NOTIC: [8] Undefined index: status D:\www\youzuan\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 1 行.
+NOTIC: [8] Undefined index: field D:\www\youzuan\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 1 行.
+NOTIC: [8] Undefined index: name D:\www\youzuan\Runtime\Cache\Admin\7a4184ffe8f804b12b2e7f8851dd8f7d.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-08-07T15:37:14+08:00 ] 127.0.0.1 /Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_version` [ RunTime:0.0110s ]
+SQL: SELECT `name` FROM `btchanges_version` WHERE `status` = 0 ORDER BY name desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `btchanges_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `btchanges_menu` WHERE ( url like 'User/index%' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0130s ]
+SQL: SELECT `id`,`pid`,`title` FROM `btchanges_menu` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  `group` FROM `btchanges_menu` WHERE ( pid = 3 )  [ RunTime:0.0080s ]
+SQL: SELECT `id`,`url` FROM `btchanges_menu` WHERE `pid` = 3 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '用户' AND `pid` = 3 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '前台用户管理' AND `pid` = 3 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '用户配置' AND `pid` = 3 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '后台用户管理' AND `pid` = 3 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_user` LIMIT 1   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `btchanges_user` ORDER BY id desc LIMIT 0,15   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101620 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 1 行.
+NOTIC: [8] Undefined variable: versionUp D:\www\youzuan\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 1 行.
+NOTIC: [8] Undefined index: status D:\www\youzuan\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 1 行.
+NOTIC: [8] Undefined index: status D:\www\youzuan\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 1 行.
+NOTIC: [8] Undefined index: field D:\www\youzuan\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 1 行.
+NOTIC: [8] Undefined index: field D:\www\youzuan\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 1 行.
+NOTIC: [8] Undefined index: field D:\www\youzuan\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 1 行.
+NOTIC: [8] Undefined index: name D:\www\youzuan\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 1 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-08-07T15:37:18+08:00 ] 127.0.0.1 /Admin/Trade/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_version` [ RunTime:0.0100s ]
+SQL: SELECT `name` FROM `btchanges_version` WHERE `status` = 0 ORDER BY name desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `btchanges_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `btchanges_menu` WHERE ( url like 'Trade/index%' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_menu` [ RunTime:0.0110s ]
+SQL: SELECT `id`,`pid`,`title` FROM `btchanges_menu` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  `group` FROM `btchanges_menu` WHERE ( pid = 5 )  [ RunTime:0.0020s ]
+SQL: SELECT `id`,`url` FROM `btchanges_menu` WHERE `pid` = 5 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '交易' AND `pid` = 5 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '推荐大厅' AND `pid` = 5 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip`,`ico_name` FROM `btchanges_menu` WHERE `group` = '蓝钻回购' AND `pid` = 5 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_trade` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `btchanges_trade` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `btchanges_trade` ORDER BY id desc LIMIT 0,15   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_user` [ RunTime:0.0090s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101632 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101632 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101632 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101632 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101632 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101632 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101632 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101632 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101632 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101632 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101632 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101632 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101632 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101632 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `moble` FROM `btchanges_user` WHERE `id` = 101632 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\81859317836b157d1bd41ebfea9ca286.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\81859317836b157d1bd41ebfea9ca286.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\81859317836b157d1bd41ebfea9ca286.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\81859317836b157d1bd41ebfea9ca286.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\81859317836b157d1bd41ebfea9ca286.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\81859317836b157d1bd41ebfea9ca286.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\81859317836b157d1bd41ebfea9ca286.php 第 1 行.
+NOTIC: [8] Undefined index: class D:\www\youzuan\Runtime\Cache\Admin\81859317836b157d1bd41ebfea9ca286.php 第 1 行.
+NOTIC: [8] Undefined variable: versionUp D:\www\youzuan\Runtime\Cache\Admin\81859317836b157d1bd41ebfea9ca286.php 第 1 行.
+NOTIC: [8] Undefined index: market D:\www\youzuan\Runtime\Cache\Admin\81859317836b157d1bd41ebfea9ca286.php 第 21 行.
+NOTIC: [8] Undefined index: market D:\www\youzuan\Runtime\Cache\Admin\81859317836b157d1bd41ebfea9ca286.php 第 21 行.
+NOTIC: [8] Undefined index: status D:\www\youzuan\Runtime\Cache\Admin\81859317836b157d1bd41ebfea9ca286.php 第 28 行.
+NOTIC: [8] Undefined index: status D:\www\youzuan\Runtime\Cache\Admin\81859317836b157d1bd41ebfea9ca286.php 第 29 行.
+NOTIC: [8] Undefined index: status D:\www\youzuan\Runtime\Cache\Admin\81859317836b157d1bd41ebfea9ca286.php 第 30 行.
+NOTIC: [8] Undefined index: field D:\www\youzuan\Runtime\Cache\Admin\81859317836b157d1bd41ebfea9ca286.php 第 34 行.
+NOTIC: [8] Undefined index: name D:\www\youzuan\Runtime\Cache\Admin\81859317836b157d1bd41ebfea9ca286.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-07T15:38:59+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T15:41:39+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T15:44:19+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T15:46:59+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T15:49:39+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T15:52:19+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T15:54:59+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T15:57:39+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T16:00:19+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T16:02:59+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T16:05:39+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T16:08:19+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T16:10:59+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T16:13:39+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T16:16:19+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T16:18:59+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T16:21:39+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T16:24:19+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T16:26:59+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T16:29:39+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T16:32:19+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T16:34:59+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T16:37:39+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T16:40:19+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T16:42:59+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T16:45:39+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T16:48:19+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T16:50:59+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T16:53:39+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T16:56:19+08:00 ] 192.168.1.109 /Admin/index.php/Index/public_session_life/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2018-08-07T16:57:26+08:00 ] 192.168.1.109 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2018-08-07T16:57:28+08:00 ] 192.168.1.109 /Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+

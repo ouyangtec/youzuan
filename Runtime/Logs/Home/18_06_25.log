@@ -1,0 +1,323 @@
+[ 2018-06-25T08:45:18+08:00 ] 127.0.0.1 /Upload/public/5b0684f3ea2e3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-25T08:45:19+08:00 ] 127.0.0.1 /Upload/public/5b03c143e269d.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-25T08:45:19+08:00 ] 127.0.0.1 /Upload/public/5b04cb912af1b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-25T08:55:04+08:00 ] 127.0.0.1 /Upload/coin/5af92cf488287.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-25T08:55:05+08:00 ] 127.0.0.1 /Upload/coin/5a7cfc081103f.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-25T08:55:05+08:00 ] 127.0.0.1 /Upload/coin/5a7cfbb92bb7e.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-06-25T08:55:05+08:00 ] 127.0.0.1 /Upload/coin/5a7cfbcddb31c.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-25T08:55:10+08:00 ] 127.0.0.1 /Upload/coin/5af92cf488287.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-25T08:56:58+08:00 ] 127.0.0.1 /Upload/coin/5af92cf488287.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-25T08:56:58+08:00 ] 127.0.0.1 /Upload/coin/5a7cfbb92bb7e.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-25T08:56:58+08:00 ] 127.0.0.1 /Upload/coin/5a7cfc081103f.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-25T08:59:25+08:00 ] 127.0.0.1 /Upload/coin/5a7cfbb92bb7e.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-25T08:59:54+08:00 ] 127.0.0.1 /Upload/coin/5af92cf488287.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-25T08:59:54+08:00 ] 127.0.0.1 /Upload/coin/5a7cfc081103f.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-25T08:59:58+08:00 ] 127.0.0.1 /Upload/coin/5a7cfc081103f.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-25T09:00:16+08:00 ] 127.0.0.1 /Upload/public/5b0684f3ea2e3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-25T09:00:16+08:00 ] 127.0.0.1 /Upload/public/5b04cb912af1b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-25T09:00:16+08:00 ] 127.0.0.1 /Upload/public/5b03c143e269d.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2018-06-25T09:01:22+08:00 ] 127.0.0.1 /Upload/coin/5af92cf488287.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-25T09:03:08+08:00 ] 127.0.0.1 /Upload/coin/5af92cf488287.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-25T14:48:05+08:00 ] 127.0.0.1 /Upload/public/5b0684f3ea2e3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-06-25T14:48:06+08:00 ] 127.0.0.1 /Upload/public/5b03c143e269d.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-25T14:48:06+08:00 ] 127.0.0.1 /Upload/public/5b04cb912af1b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-25T15:09:38+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: show tables [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `btchanges_daohang` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `btchanges_daohang` WHERE `status` = 1 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: SHOW COLUMNS FROM `btchanges_adver` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `btchanges_adver` WHERE `status` = 1 ORDER BY id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `index` = 1 ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_article` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `btchanges_article` WHERE `type` = 'aaa' AND `status` = 1 AND `index` = 1 ORDER BY id desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `btchanges_article` WHERE `type` = 'bbb' AND `status` = 1 AND `index` = 1 ORDER BY id desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `btchanges_article` WHERE `type` = '常见问题' AND `status` = 1 AND `index` = 1 ORDER BY id desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_link` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `btchanges_link` WHERE `status` = 1 ORDER BY sort asc ,id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: SHOW COLUMNS FROM `btchanges_article` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`title`,`addtime` FROM `btchanges_article` WHERE `type` = '官方公告' AND `status` = 1 ORDER BY addtime DESC LIMIT 3   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title`,`addtime` FROM `btchanges_article` WHERE `type` = '行业资讯' AND `status` = 1 ORDER BY addtime DESC LIMIT 3   [ RunTime:0.0000s ]
+ERR: 1054:Unknown column 'pic' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`title`,`addtime`,`content`,`pic` FROM `btchanges_article` WHERE `type` = '项目分析' AND `status` = 1 ORDER BY addtime DESC LIMIT 8  
+ERR: 1054:Unknown column 'pic' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`title`,`addtime`,`content`,`pic` FROM `btchanges_article` WHERE `type` = '项目分析' AND `status` = 1 ORDER BY addtime DESC LIMIT 8  
+
+[ 2018-06-25T15:09:41+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: SHOW COLUMNS FROM `btchanges_adver` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `btchanges_adver` WHERE `status` = 1 ORDER BY id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `index` = 1 ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_article` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `btchanges_article` WHERE `type` = 'aaa' AND `status` = 1 AND `index` = 1 ORDER BY id desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `btchanges_article` WHERE `type` = 'bbb' AND `status` = 1 AND `index` = 1 ORDER BY id desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `btchanges_article` WHERE `type` = '常见问题' AND `status` = 1 AND `index` = 1 ORDER BY id desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_link` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `btchanges_link` WHERE `status` = 1 ORDER BY sort asc ,id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: SHOW COLUMNS FROM `btchanges_article` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`title`,`addtime` FROM `btchanges_article` WHERE `type` = '官方公告' AND `status` = 1 ORDER BY addtime DESC LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`addtime` FROM `btchanges_article` WHERE `type` = '行业资讯' AND `status` = 1 ORDER BY addtime DESC LIMIT 3   [ RunTime:0.0010s ]
+ERR: 1054:Unknown column 'pic' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`title`,`addtime`,`content`,`pic` FROM `btchanges_article` WHERE `type` = '项目分析' AND `status` = 1 ORDER BY addtime DESC LIMIT 8  
+ERR: 1054:Unknown column 'pic' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`title`,`addtime`,`content`,`pic` FROM `btchanges_article` WHERE `type` = '项目分析' AND `status` = 1 ORDER BY addtime DESC LIMIT 8  
+
+[ 2018-06-25T15:09:45+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: SHOW COLUMNS FROM `btchanges_adver` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `btchanges_adver` WHERE `status` = 1 ORDER BY id asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `index` = 1 ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_article` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `btchanges_article` WHERE `type` = 'aaa' AND `status` = 1 AND `index` = 1 ORDER BY id desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `btchanges_article` WHERE `type` = 'bbb' AND `status` = 1 AND `index` = 1 ORDER BY id desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `btchanges_article` WHERE `type` = '常见问题' AND `status` = 1 AND `index` = 1 ORDER BY id desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_link` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `btchanges_link` WHERE `status` = 1 ORDER BY sort asc ,id desc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: SHOW COLUMNS FROM `btchanges_article` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`title`,`addtime` FROM `btchanges_article` WHERE `type` = '官方公告' AND `status` = 1 ORDER BY addtime DESC LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`addtime` FROM `btchanges_article` WHERE `type` = '行业资讯' AND `status` = 1 ORDER BY addtime DESC LIMIT 3   [ RunTime:0.0000s ]
+ERR: 1054:Unknown column 'pic' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`title`,`addtime`,`content`,`pic` FROM `btchanges_article` WHERE `type` = '项目分析' AND `status` = 1 ORDER BY addtime DESC LIMIT 8  
+ERR: 1054:Unknown column 'pic' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`title`,`addtime`,`content`,`pic` FROM `btchanges_article` WHERE `type` = '项目分析' AND `status` = 1 ORDER BY addtime DESC LIMIT 8  
+
+[ 2018-06-25T15:09:48+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: SHOW COLUMNS FROM `btchanges_adver` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `btchanges_adver` WHERE `status` = 1 ORDER BY id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `index` = 1 ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_article` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `btchanges_article` WHERE `type` = 'aaa' AND `status` = 1 AND `index` = 1 ORDER BY id desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `btchanges_article` WHERE `type` = 'bbb' AND `status` = 1 AND `index` = 1 ORDER BY id desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `btchanges_article` WHERE `type` = '常见问题' AND `status` = 1 AND `index` = 1 ORDER BY id desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_link` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `btchanges_link` WHERE `status` = 1 ORDER BY sort asc ,id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: SHOW COLUMNS FROM `btchanges_article` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`title`,`addtime` FROM `btchanges_article` WHERE `type` = '官方公告' AND `status` = 1 ORDER BY addtime DESC LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`addtime` FROM `btchanges_article` WHERE `type` = '行业资讯' AND `status` = 1 ORDER BY addtime DESC LIMIT 3   [ RunTime:0.0010s ]
+ERR: 1054:Unknown column 'pic' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`title`,`addtime`,`content`,`pic` FROM `btchanges_article` WHERE `type` = '项目分析' AND `status` = 1 ORDER BY addtime DESC LIMIT 8  
+ERR: 1054:Unknown column 'pic' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`title`,`addtime`,`content`,`pic` FROM `btchanges_article` WHERE `type` = '项目分析' AND `status` = 1 ORDER BY addtime DESC LIMIT 8  
+
+[ 2018-06-25T15:09:51+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `btchanges_config` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `btchanges_coin` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_market` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_article_type` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: SHOW COLUMNS FROM `btchanges_adver` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `btchanges_adver` WHERE `status` = 1 ORDER BY id asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `index` = 1 ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `btchanges_article` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `btchanges_article` WHERE `type` = 'aaa' AND `status` = 1 AND `index` = 1 ORDER BY id desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `btchanges_article` WHERE `type` = 'bbb' AND `status` = 1 AND `index` = 1 ORDER BY id desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `btchanges_article` WHERE `type` = '常见问题' AND `status` = 1 AND `index` = 1 ORDER BY id desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `btchanges_link` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `btchanges_link` WHERE `status` = 1 ORDER BY sort asc ,id desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `btchanges_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: btchanges D:\www\youzuan\Application\Home\Controller\HomeController.class.php 第 59 行.
+SQL: SELECT * FROM `btchanges_coin` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `btchanges_market` WHERE `status` = 1  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `btchanges_article_type` WHERE `status` = 1 AND `footer` = 1 AND `shang` = '' ORDER BY sort asc ,id desc LIMIT 3   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Runtime/Temp/8d5c52105dc3ee42a6160b72e33b074b.php): No such file or directory D:\www\youzuan\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 313 行.
+SQL: SHOW COLUMNS FROM `btchanges_article` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`title`,`addtime` FROM `btchanges_article` WHERE `type` = '官方公告' AND `status` = 1 ORDER BY addtime DESC LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`addtime` FROM `btchanges_article` WHERE `type` = '行业资讯' AND `status` = 1 ORDER BY addtime DESC LIMIT 3   [ RunTime:0.0010s ]
+ERR: 1054:Unknown column 'pic' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`title`,`addtime`,`content`,`pic` FROM `btchanges_article` WHERE `type` = '项目分析' AND `status` = 1 ORDER BY addtime DESC LIMIT 8  
+ERR: 1054:Unknown column 'pic' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`title`,`addtime`,`content`,`pic` FROM `btchanges_article` WHERE `type` = '项目分析' AND `status` = 1 ORDER BY addtime DESC LIMIT 8  
+

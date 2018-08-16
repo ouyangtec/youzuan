@@ -1,0 +1,183 @@
+<include file="Public:header"/>
+
+<div id="main-content">
+
+    <div id="top-alert" class="fixed alert alert-error" style="display: none;">
+
+        <button class="close fixed" style="margin-top: 4px;">&times;</button>
+
+        <div class="alert-content">警告内容</div>
+
+    </div>
+
+    <div id="main" class="main">
+
+        <div class="main-title-h">
+
+            <span class="h1-title">用户管理</span>
+
+        </div>
+
+        <div class="cf">
+
+            <div class="fl" style="display: none">
+
+                <a class="btn btn-success  " href="{:U('User/edit')}">新 增</a>
+
+                <button class="ajax-post btn  btn-info " url="{:U('User/status',array('type'=>'resume'))}" target-form="ids">启 用</button>
+
+                <button class="ajax-post btn  btn-warning  ajax-post" url="{:U('User/status',array('type'=>'forbid'))}" target-form="ids">禁 用</button>
+
+                <button class="btn ajax-post confirm btn-danger " url="{:U('User/status',array('type'=>'del'))}" target-form="ids">删 除</button>
+
+            </div>
+
+            <div class="search-form fr cf">
+
+                <div class="sleft">
+
+                    <form name="formSearch" id="formSearch" method="get" name="form1">
+
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="data-table table-striped">
+
+            <table class="">
+
+                <thead>
+
+                <tr>
+
+                    <th class="row-selected row-selected">
+
+                        <input class="check-all" type="checkbox"/>
+
+                    </th>
+
+                    <th class="">ID</th>
+
+                    <th class="">用户ID</th>
+
+                    <th class="">真实姓名</th>
+
+                    <th class="">证件号</th>
+
+                    <th class="">性别</th>
+
+                    <th class="">正面照</th>
+
+                    <th class="">反面照</th>
+
+                    <th class="">提交时间</th>
+
+                    <th class="">状态</th>
+
+                    <th class="">操作</th>
+
+                </tr>
+
+                </thead>
+
+
+                <tbody>
+                <notempty name="list">
+                    <volist name="list" id="vo">
+                        <tr>
+                            <td>
+                                <input class="ids" type="checkbox" name="id[]" value="{$vo.id}"/>
+                            </td>
+                            <td>{$vo.id}</td>
+                            <td>{$vo.userid}</td>
+                            <td><span id="name{$vo.id}">{$vo.truename}</span></td>
+                            <td><span id="idcard{$vo.id}">{$vo.idcard}</span> </td>
+                            <td>
+                                <span id="sex{$vo.id}">
+                                    <if condition="$vo.sex eq 1">
+                                    男
+                                    <else/>
+                                    女
+                                </if>
+                                </span>
+                            </td>
+                            <td>
+                                <img src="{$vo.img}" id="{$vo.id}">
+                            </td>
+                            <td>
+                                <img src="{$vo.img2}" id="{$vo.id}">
+                            </td>
+                            <td>{:date('Y-m-d H:i:s',$vo['addtime'])}</td>
+                            <td>
+                                <if condition="$vo.status eq 0">
+                                    处理中
+                                    <else/>
+                                    已处理
+                                </if>
+                            </td>
+                            <td>
+                                <a class="ajax-get btn btn-primary btn-xs" href="{:U('User/smrztg?id='.$vo['id'])}">通过</a>
+                                <a href="{:U('User/smrzjj?id='.$vo['id'])}" class="ajax-get btn btn-primary btn-xs">拒绝</a>
+                            </td>
+                        </tr>
+                    </volist>
+                    <else/>
+                    <td colspan="12" class="text-center">Oh! 暂时还没有内容!</td>
+                </notempty>
+
+                </tbody>
+
+            </table>
+
+            <div class="page">
+
+                <div>{$page}</div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<style type="text/css">
+    img {
+        width: 100px;
+    }
+</style>
+<include file="Public:footer"/>
+
+<block name="script">
+
+    <script type="text/javascript" charset="utf-8">
+
+        //导航高亮
+
+        highlight_subnav("{:U('User/smrz')}");
+
+        $(function () {
+            $("img").click(function () {
+                var a=$(this).attr('src');
+                var id=$(this).attr('id');
+                var name=$("#name"+id).text();
+                var idcard=$("#idcard"+id).text();
+                var sex=$("#sex"+id).text();
+                layer.open({
+                    type: 1,
+                    title: '姓名:'+name+'；身份证:'+idcard+'；性别：'+sex,
+                    closeBtn: 0,
+                    area: '516px',
+                    skin: 'layui-layer-nobg', //没有背景色
+                    shadeClose: true,
+                    content: '<div><img src="'+a+'" style="width: 100%;height: 100%"></div>'
+                });
+            })
+        })
+    </script>
+
+</block>

@@ -1,0 +1,3 @@
+<?php
+//000000000000s:646:"<span style="color:#E53333;line-height:21px;"><span style="color:#E53333;"><span style="color:#E53333;font-family:" font-size:14px;line-height:34px;"=""><span style="font-size:16px;">只允许使用</span><strong><span style="font-size:16px;">本人</span></strong><span style="font-size:16px;">的銀行卡进行</span></span></span></span><span style="color:#0096E0;line-height:21px;"><span><span style="color:#FF0D00;font-family:'Microsoft YaHei';font-size:14px;line-height:34px;"><span style="color:#9933E5;"></span><span style="color:#E53333;font-size:16px;">转账充值，请确保汇款人姓名与注册一致</span></span></span></span>";
+?>

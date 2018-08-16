@@ -1,0 +1,113 @@
+<include file="Public:header"/>
+<div id="main-content">
+    <div id="top-alert" class="fixed alert alert-error" style="display: none;">
+        <button class="close fixed" style="margin-top: 4px;">&times;</button>
+        <div class="alert-content">警告内容</div>
+    </div>
+    <div id="main" class="main">
+        <div class="main-title-h">
+            <span class="h1-title">钻石发放</span>
+        </div>
+        <div class="tab-wrap">
+            <div class="tab-content">
+                <form id="form" action="{:U('duobao/maxEdit')}" method="post" class="form-horizontal">
+                    <div id="tab" class="tab-pane in tab">
+                        <div class="form-item cf">
+                            <table>
+                                <tr class="controls" >
+                                    <td>
+                                        <fieldset style="padding: .35em .625em .75em;margin: 0 2px;border: 1px solid silver;">
+                                            <legend>红钻</legend>
+                                            <input type="hidden" class="form-control input-8x" name="redid" value="{$red.id}">
+                                            总额：<input type="text" class="form-control input-8x" name="redmum" value="{$red.mum}">
+                                            拆分数量：<input type="text" class="form-control input-8x"  name="rednum" value="{$red.num}">
+                                        </fieldset>
+                                    </td>
+                                    <td>
+                                        <fieldset style="padding: .35em .625em .75em;margin: 0 2px;border: 1px solid silver;">
+                                            <legend>蓝钻</legend>
+                                            <input type="hidden" class="form-control input-8x" name="blueid" value="{$blue.id}">
+                                            总额：<input type="text" class="form-control input-8x" name="bluemum" value="{$blue.mum}">
+                                            拆分数量：<input type="text" class="form-control input-8x"  name="bluenum" value="{$blue.num}">
+                                        </fieldset>
+                                    </td>
+                                    <td>
+                                        <fieldset style="padding: .35em .625em .75em;margin: 0 2px;border: 1px solid silver;">
+                                            <legend>金钻</legend>
+                                            <input type="hidden" class="form-control input-8x" name="goldid" value="{$gold.id}">
+                                            总额：(根据发放总额计算,无法单独修改)<input style="color: black" type="text" readonly class="form-control input-6x" name="goldmum" value="{$gold.mum}">
+                                            拆分数量：<input type="text"  class="form-control input-6x" name="goldnum"  value="{$gold.num}">
+                                        </fieldset>
+                                    </td>
+
+                                </tr>
+                                <!--<tr class="controls">
+                                    <td class="item-label">拆分数量 :</td>
+                                    <td>
+                                        <input type="text" class="form-control input-10x" id="moble_user" name="moble_user" value="{$C['moble_user']}">
+                                    </td>
+                                    <td class="item-note"></td>
+                                </tr>-->
+
+                                <tr class="controls">
+                                    <td class="item-label"></td>
+                                    <td>
+                                        <div class="form-item cf">
+                                            <button class="btn submit-btn ajax-post" id="submit" type="submit" target-form="form-horizontal">确 定</button>
+                                            <a class="btn btn-return" href="{$Think.server.HTTP_REFERER}">返 回</a>
+                                            <notempty name="data.id"><input type="hidden" name="id" value="{$data.id}"/>
+                                            </notempty>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </form>
+                <script type="text/javascript">
+                    //提交表单
+                    $('#submit').click(function () {
+                        $('#form').submit();
+                    });
+                </script>
+            </div>
+        </div>
+        <div class="data-table table-striped">
+            <table class="">
+                <thead>
+                <tr>
+                    <th class="row-selected row-selected"><input class="check-all" type="checkbox" /></th>
+                    <th class="">ID</th>
+                    <th class="">币种</th>
+                    <th class="">拆分数量</th>
+
+
+
+                    <th class="">每份</th>
+                    <th class="">总额</th>
+                    <th class="">已使用</th>
+                    <th class="">时间</th>
+
+                </tr>
+                </thead>
+                <tbody>
+                <notempty name="list"> <volist name="list" id="vo">
+                    <tr>
+                        <td><input class="ids" type="checkbox" name="id[]" value="{$vo.id}" /></td>
+                        <td>{$vo.id}</td>
+                        <td>{$vo.name}</td>
+                        <td>{$vo.num}</td>
+                        <td>{$vo.price}</td>
+                        <td>{$vo.mum}</td>
+                        <td>{$vo.deal}</td>
+                        <td>{$vo.savetime|addtime}</td>
+                    </tr>
+                </volist> <else />
+                    <td colspan="12" class="text-center">Oh! 暂时还没有内容!</td>
+                </notempty>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<include file="Public:footer"/>

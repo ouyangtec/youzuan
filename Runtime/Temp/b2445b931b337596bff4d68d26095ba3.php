@@ -1,0 +1,3 @@
+<?php
+//000000000000a:2:{s:4:"list";a:2:{s:8:"gold_cny";a:4:{s:4:"name";s:8:"gold_cny";s:3:"img";s:17:"5b32e9608b294.png";s:5:"title";s:16:"金钻(GOLD/CNY)";s:9:"new_price";d:2;}s:8:"ltc_gold";a:4:{s:4:"name";s:8:"ltc_gold";s:3:"img";s:17:"5b303e7d842c7.png";s:5:"title";s:19:"莱特币(LTC/GOLD)";s:9:"new_price";d:0;}}s:4:"info";a:9:{s:3:"img";s:17:"5b303e7d842c7.png";s:5:"title";s:19:"莱特币(LTC/GOLD)";s:9:"new_price";d:0;s:9:"max_price";d:0;s:9:"min_price";d:0;s:9:"buy_price";d:0;s:10:"sell_price";d:0;s:6:"volume";d:0;s:6:"change";d:0;}}
+?>

@@ -1,0 +1,15 @@
+[ 2018-06-21T18:15:18+08:00 ] 127.0.0.1 /Upload/public/5b0684f3ea2e3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-21T18:15:19+08:00 ] 127.0.0.1 /Upload/public/5b03c143e269d.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-21T18:15:19+08:00 ] 127.0.0.1 /Upload/public/5b04cb912af1b.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
