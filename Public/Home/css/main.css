@@ -29,6 +29,20 @@ body{
 body .layui-m-layer .layui-m-layer-msg{
 	bottom: 20px!important;
 }
+.login-out a{
+	display:block;
+	width: 90%;
+	height: .8rem;
+	line-height: .8rem;
+	background: #ff7324;
+	margin:.3rem auto 0;
+	text-align:center;
+	color:#fff;
+	
+}
+.Pagination a:hover,.current{background-color: #f5930c;border: 1px solid #f5980c;color: #ffffff; }
+	.Pagination{text-align:center;height: auto;_height: 45px; line-height: 20px;margin-right: 15px;_margin-right: 5px; color:#565656;margin-top: 10px;_margin-top: 20px; clear:both;}
+	.Pagination a,.Pagination span{ font-size: 14px;text-decoration: none;display: inline-block;color: #565656;border: 1px solid #ccc;height: 34px;line-height: 34px;margin: 0 2px;padding:0 10px;text-align: center;}
 #loadingDiv{
 	position:absolute;
 	top: 0;
@@ -244,10 +258,11 @@ body .layui-m-layer .layui-m-layer-msg{
 .login-form .inp {
 	border:1px solid #c0c0c0;
 	border-radius: 4px;
-	padding: .38rem;
-	height: 1.1rem;
+	padding: 0 .38rem;
+	height: 0.86rem;
 	font-size: .28rem;
-	color: #b2b2b2;
+	/* color: #b2b2b2; */
+	color:#343333;
 }
 .login-form .inp{
 	width: 6.76rem;
@@ -255,6 +270,7 @@ body .layui-m-layer .layui-m-layer-msg{
 	
 }
 .login-form .code-inp{
+	
 	width: 4.36rem;
 	margin-right: .1rem;
 	
@@ -282,7 +298,7 @@ body .layui-m-layer .layui-m-layer-msg{
 .login-form .login-btn{
 	border:0;
 	width: 100%;
-	height: 1.1rem;
+	height: 0.9rem;
 	background: #ff7324;
 	color:#ffffff;
 	font-size: .4rem;
@@ -458,9 +474,10 @@ body .layui-m-layer .layui-m-layer-msg{
 }
 .buy-back .gold-drill .right-tit{
 	float: left;
+	padding-top:.1rem;
 }
 .buy-back .gold-drill .right-tit h5{
-	font-size: .3rem;
+	font-size: .34rem;
 	color: #010101;
 	margin-bottom: .1rem;
 }
@@ -561,19 +578,22 @@ body .layui-m-layer .layui-m-layer-msg{
 	color: #323232;
 }
 .news-list li {
-	display: flex;
-	justify-content: space-between;
 	padding: .3rem .4rem .4rem .3rem;
 	border-bottom: 1px solid #f2f2f2;
 	background: #fff;
 	margin-bottom: 10px;
+}
+.news-list li a{
+	display:block;
+	display: flex;
+	justify-content: space-between;
 }
 .news-list li .list-left{
 	width: 5.16rem;
 }
 .news-list li .list-left h4{
 	width: 100%;
-	font-size: .4rem;
+	font-size: .3rem;
 	color: #666666;
 	margin-bottom: .1rem;
 	overflow: hidden;
@@ -599,7 +619,7 @@ body .layui-m-layer .layui-m-layer-msg{
 	padding-right: .24rem;
 }
 .news-detail-con h3{
-	font-size: .4rem;
+	font-size: .36rem;
 	color: #666666;
 	margin-bottom: .46rem;
 	line-height: 1.5;
@@ -651,11 +671,12 @@ body .layui-m-layer .layui-m-layer-msg{
 	color: #050505;
 }
 .all-coin-info{
-	padding:0 .3rem;
 	color:#999999;
 	font-size:.3rem;
-	padding-top:.3rem;
-	padding-bottom:.3rem;
+	padding:.2rem .3rem;
+	font-size:.24rem;
+
+
 }
 .all-coin-info p{
 	margin-bottom:.2rem;
@@ -671,6 +692,7 @@ body .layui-m-layer .layui-m-layer-msg{
 }
 .all-coin-info .coin-left{
 	float:left;
+	
 }
 .all-coin-info .coin-right{
 	float:right;
@@ -708,16 +730,37 @@ body .layui-m-layer .layui-m-layer-msg{
 	font-size: .28rem;
 	color: #323232;
 }
+.trade-box .put-box .order-left{
+	float:left;
+	width:50%;
+}
+.trade-box .put-box .order-right{
+	width:49%;
+	float:right;
+}
 .trade-box .put-box .buy-put{
-	float: left;
+		float: left;
+		height:140px;
+		/* width:100%; */
+		overflow-x: hidden;
+		overflow-y: scroll;
+		
 }
 .trade-box .put-box .sell-put{
-	float: right;
+	height:140px;
+	overflow-x: hidden;
+    overflow-y: scroll;
+	    float: right;
 }
 .trade-box .put-box li {
 	/*margin-bottom: .4rem;*/
+
 	height: .56rem;
 	line-height: .56rem;
+	text-align:center;
+}
+.trade-box .put-box li.nodata{
+	width:100%;
 }
 .trade-box .put-box span{
 	float: left;
@@ -729,6 +772,7 @@ body .layui-m-layer .layui-m-layer-msg{
 .trade-box .put-box .price{
 	margin-right: .1rem;
 	width: 1.2rem;
+	
 }
 .trade-box .put-box .num{
 	/*margin-right: .36rem;*/
@@ -799,11 +843,12 @@ body .layui-m-layer .layui-m-layer-msg{
 .business-wrap .business-con .form-group{
 	margin:0 .24rem;
 	border: 1px solid #bbbbbb;
-	height: .98rem;
+	height: .8rem;
 	/*line-height: .98rem;*/
 	margin-bottom: .16rem;
 	font-size: 0;
 }
+
 .business-wrap .business-con .form-group.num-form-group{
 	margin-bottom: 0;
 }
@@ -859,6 +904,16 @@ body .layui-m-layer .layui-m-layer-msg{
 }
 .business-wrap .business-con button.red-bg {
 	background: #ee4343;
+}
+.business-con .available-box{
+	padding:.1rem .3rem;
+	font-size:.24rem;
+	
+}
+.business-con .forget {
+	text-align:right;
+	font-size:.24rem;
+	padding-right:.3rem;
 }
 .groom-header{
 	position: absolute;
@@ -1019,7 +1074,7 @@ body .layui-m-layer .layui-m-layer-msg{
 	position: relative;
 	width: 100%;
 	height: 3.5rem;
-	padding: 0 .3rem;
+	/* padding: 0 .3rem; */
 	background: url(../images/person-bg1.png) no-repeat;
 	background-size: 100% 100%;
 }
@@ -1027,6 +1082,7 @@ body .layui-m-layer .layui-m-layer-msg{
 	float: left;
 	font-size: 0;
 	padding-top: .24rem;
+	padding-left:.3rem;
 
 }
 .person-header .head-box .head {
@@ -1047,6 +1103,7 @@ body .layui-m-layer .layui-m-layer-msg{
 .person-header .setUp{
 	float: right;
 	padding-top: .28rem;
+	padding-right:.3rem;
 }
 .person-header .setUp .iconfont{
 	font-size: .4rem;
@@ -1170,7 +1227,7 @@ body .layui-m-layer .layui-m-layer-msg{
 	width: 100%;
 	/*height: 13rem;*/
 	min-height: 100%;
-	background: url(../images/groom-bg1.jpg) no-repeat;
+	background: url(../images/groom-bg3.jpg) no-repeat;
 	background-size: 100% 100%;
 }
 .groom-poster-bg .post-head{
@@ -1192,17 +1249,26 @@ body .layui-m-layer .layui-m-layer-msg{
 	color: #010101;
 }
 .groom-poster-bg .invitation{
-	position: absolute;
-	top: 6.8rem;
-	left: 1.3rem;
+	/* position: absolute; */
+	/* top: 6.8rem; */
+	/* left: 1.3rem; */
 	font-size: .4rem;
 	color: #323232;
+	padding-top:4.8rem;
+}
+.groom-poster-bg .invitation h4{
+	width:3.04rem;
+	height:1.3rem;
+	line-height:1.2rem;
+	background:url(../images/invite-icon1.png) no-repeat;
+	background-size:contain;
+	text-align:center;
+	margin:0 auto;
 }
 .groom-poster-bg .groom-poster-code{
 	position: absolute;
-	bottom: .38rem;
-	left: 50%;
-	margin-left: -1.2rem;
+	bottom: .3rem;
+	left:.8rem;
 
 	width: 2.4rem;
 	/*height: 2.04rem;*/
@@ -1218,6 +1284,52 @@ body .layui-m-layer .layui-m-layer-msg{
 	height: 2.04rem;
 	background-size: contain;
 	margin: 0 auto;
+}
+.quicklink{
+	width:5.66rem;
+	margin:0 auto;
+}
+.quicklink .textarea-bg{
+	box-sizing:border-box;
+	width:5.6rem;
+	height:1.6rem;
+	background:url(../images/invite-bg1.png) no-repeat;
+	padding:0 .26rem;
+	padding-top:.3rem;
+	background-size:contain;
+	
+}
+.quicklink .area{
+	background:none;
+	width:5rem;
+	height:1rem;
+	font-size:.2rem;
+	color:#000;
+	line-height:1.5;
+	
+	
+}
+.quicklink h4{
+	font-size:.36rem;
+	margin-bottom:.2rem;
+	margin-top:.2rem;
+}
+.quicklink .tip{
+	/* margin-bottom:.2rem; */
+	font-size:.24rem;
+	color:#fff;
+	line-height:1.5;
+}
+.quicklink .btn-quick{
+	border:0;
+	display:block;
+	width:1.66rem;
+	height:.58rem;
+	background:url(../images/invite-btn.png) no-repeat;
+	background-size:contain;
+	margin:0 auto;
+	font-size.2rem;
+	margin-top:.26rem;
 }
 .groom-poster-explain h4{
 	width: 3.5rem;
@@ -1930,7 +2042,7 @@ body .layui-m-layer .layui-m-layer-msg{
     font-size: .28rem;
 }
 .hot-tab-con table tbody tr {
-    height: .58rem;
+    height: .8rem;
     line-height: .58rem;
     text-align: center;
     font-size: .28rem;
@@ -1967,6 +2079,10 @@ body .layui-m-layer .layui-m-layer-msg{
 	background: #ff7324;
 	color: #fff;
 
+}
+.traderecord-table tbody td:nth-child(2){
+	line-height:1.2;
+	
 }
 /*发布求购*/
 .release-form {
@@ -2038,7 +2154,7 @@ body .layui-m-layer .layui-m-layer-msg{
 /*推荐奖励*/
 .main-table {
 	width: 100%;
-	font-size: .3rem;
+	font-size: .28rem;
 
 }
 .main-table thead,.main-table thead tr{
@@ -2124,7 +2240,7 @@ body .layui-m-layer .layui-m-layer-msg{
 	margin-bottom: .36rem;
 }
 .release-buy-con .detail-box  li {
-	margin-bottom: .3rem;
+	/* margin-bottom: .3rem; */
 	font-size: .24rem;
 	line-height: 1.8;
 }

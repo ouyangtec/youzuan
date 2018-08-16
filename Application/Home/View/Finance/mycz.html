@@ -34,7 +34,7 @@
             <div class="form-group1">
                 <label >充值金额</label>
                 <div class="inp-b">
-                    ￥<input type="text"  placeholder="请输入充值金额" id="money">
+                    ￥<input type="text" placeholder="请输入充值金额" id="money">
                 </div>
             </div>
             <button type="button" class="recharge-btn" id="next">下一步</button>
@@ -107,7 +107,7 @@
                                    充值成功
                                </eq>
                                <eq name="v.status" value="2">
-                                   人工到账
+                                   已到帐
                                </eq>
                                <eq name="v.status" value="3">
                                    处理中
@@ -219,8 +219,6 @@
     --></div>
 </div>
 <script>
-
-    $('#money').change();
     function clearNoNum(obj){
         obj.value = obj.value.replace(/[^\d.]/g,"");  //清除“数字”和“.”以外的字符
         obj.value = obj.value.replace(/\.{2,}/g,"."); //只保留第一个. 清除多余的
@@ -233,9 +231,7 @@
         }
     }
     $('#money').on('blur keyup',function(){
-
-;
-        console.log($(this)[0].value);
+        console.log($(this)[0])
         if (clearNoNum($(this)[0])) {
             layer.open({
                 skin:'msg',
@@ -246,33 +242,26 @@
             return false;
         }
     })
-
-    $('#money').on('change',function(){
-        var fla="{$fla}";
-        $('#money').val($(this)[0].value+'.'+fla);
-
-        console.log($(this)[0].value);
-    })
     function myczUp() {
         $('.popup-con').hide();
         var mbTest_num = /^[1-9]{1}\d*?$/;
         var type = $('#pay-way .payway').attr('value');
         var num = $("#money").val();
         if (num == "" || num == null) {
-            layer.tips('请输入充值数量', '#money', {tips: 3});
+            layer.tips('请输入充值数量', '#mrliang', {tips: 3});
             return false;
         }
-     /*   if (!mbTest_num.test(num)) {
-            layer.tips('充值数量格式错误 (数字)', '#money', {tips: 3});
+        if (!mbTest_num.test(num)) {
+            layer.tips('充值数量格式错误 (数字)', '#mrliang', {tips: 3});
             return false;
-        }*/
+        }
 
         if (type == "" || type == null) {
             layer.tips('请选择充值方式', '#mycz_type', {tips: 3});
             return false;
         }
         $.post("{:U('Finance/myczUp')}", {
-            coin:'zc',
+            coin:'cny',
             num: num,
             type:type
         }, function (data) {

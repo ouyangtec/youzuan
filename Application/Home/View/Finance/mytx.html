@@ -63,9 +63,9 @@
                 </div>
                 <div class="withdraw-form-group2">
                     <span>可用余额：</span>
-                    <span>{$user_coin.zc}元</span>
+                    <span>{$user_coin.cny}元</span>
                 </div>
-                <button type="button"  onclick="mytxUp('zc')" class="recharge-btn">确定</button>
+                <button type="button"  onclick="mytxUp('cny')" class="recharge-btn">确定</button>
             </form>
         </div>
             <div style="text-align:left;padding-left: 10px;margin-top: .4rem;padding: 0 .2rem;font-size: .22rem;color: #000;line-height: 1.8;"  >
@@ -87,7 +87,7 @@
                             <th class="last">操作数量</th>
                             <!--   <th class="last">实际到账</th>-->
                             <th class="last" >状态</th>
-                      <!--      <th class="last">操作</th>-->
+                            <th class="last">操作</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -144,11 +144,11 @@
                                         </eq>
                                     </if>
                                 </td>
-                                <!--<td>
+                                <td>
                                     <eq name="v.status" value="0">
                                         <a onclick="mytxChexiao({$v['id']})" href="javascript:void(0)" style="    color: #2674FF!important;">撤销</a>
                                     </eq>
-                                </td>-->
+                                </td>
                             </tr>
                         </foreach>
                         </tbody>
@@ -202,7 +202,7 @@
         var moble_verify=msg1;
         var paypassword=msg2;
       //  var google=body.find('#google').val();
-     //   alert(paypassword);
+        //alert(paypassword);
         if(moble_verify==''||paypassword==''){
             return false;
         }
@@ -210,7 +210,7 @@
 
         $.post("{:U('Finance/mytxUp')}", {
             type: type,
-            coin:'zc',
+            coin:'cny',
             num: num,
             paypassword: paypassword,
             moble_verify: moble_verify,
@@ -233,7 +233,7 @@
         }, "json");
     }
     function mytxChexiao(id) {
-        $.post("{:U('Finance/mytxChexiao')}", {id: id,coin:'zc'}, function (data) {
+        $.post("{:U('Finance/mytxChexiao')}", {id: id,coin:'cny'}, function (data) {
             if (data.status == 1) {
                 layer.msg(data.info, {icon: 1,offset: '300px'});
                 window.location.reload();

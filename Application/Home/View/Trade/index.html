@@ -37,7 +37,7 @@
 			</div>
 			<div class="coin-right">
 				<p class="p1"  id="market_change"></p>
-				<p>成交量<span class="span1" id="market_volume"></span></p>
+				<p>24h成交量<span class="span1" id="market_volume"></span></p>
 			</div>
 		</div>
 
@@ -54,7 +54,7 @@
 			<div class="tab-content">
 				<div class="con kline" id="kline"  style="display: none"></div>
 				<div class="con put-box clearfix">
-					<div id="th" style="height: 10px">
+					<div id="th" style="height: 10px" class="clearfix">
 						<div style="width: 50%; float: left">
 							<ul class="clearfix" >
 								<li>
@@ -80,17 +80,16 @@
 					</div>
 
 
+					<div>
+						<div class="buy-put put" style="">
+							<ul class="clearfix" id="buylist" >
 
-					<div class="buy-put put" style="height:130px;overflow-x: hidden;
-    overflow-y: scroll;">
-						<ul class="clearfix" id="buylist" >
+							</ul>
+						</div>
 
-						</ul>
-					</div>
-
-					<div class="sell-put put" style="height:130px;overflow-x: hidden;
-    overflow-y: scroll;">
-						<ul class="clearfix" id="selllist" ></ul>
+						<div class="sell-put put" style="">
+							<ul class="clearfix" id="selllist" ></ul>
+						</div>
 					</div>
 				</div>
 				<div class="con deal-box" style="display: none; ">
@@ -99,7 +98,7 @@
 						<span class="price">成交价格</span>
 						<span class="num">成交量</span>
 					</div>
-					<div style="height:130px;overflow-x: hidden;
+					<div style="height:156px;overflow-x: hidden;
     overflow-y: scroll;">
 						<ul class="deal-tbody" id="orderlist">
 							<!--<li>
@@ -153,11 +152,11 @@
 						<div style="margin: 0 .24rem;font-size: .28rem">
 
 
-						</div>
+						</div><!-- 
 						<div  style="padding-bottom:20px;padding-top: 10px">
 
 							<a style="float: right;color:#666;font-size: .28rem" href="{:U('login/findpaypwd')}">忘记交易密码？</a>
-						</div>
+						</div> -->
 						<button type="button" class="green-bg"  onclick="tradeadd_buy()">买入</button>
 					</form>
 				</div>
@@ -183,10 +182,10 @@
 							<span class="ft_p" style="padding-left: .5rem">手续费：</span>
 							<span> {:C('market')[$market]['fee_sell']}%</span>
 						</div>
-						<div  style="padding-bottom:20px;padding-top: 10px">
+					<!-- 	<div  style="padding-bottom:20px;padding-top: 10px">
 
 							<a style="float: right;color:#666;font-size: .28rem" href="{:U('login/findpaypwd')}">忘记交易密码？</a>
-						</div>
+						</div> -->
 						<button type="button" class="red-bg" onclick="tradeadd_sell()">卖出</button>
 					</form>
 				</div>
@@ -446,17 +445,18 @@
             var price = $('#buy_price').val();
             var num = $('#buy_num').val();
             var mum = $('#buy_mum').html();
-            if(rmb="zc"){
+            if(rmb="cny"){
                 rmb="元";
             }
 
-			var  pay =mum*(100*100 + buy_fee*100)/10000;
+			var  pay =mum/100*(100*100 + buy_fee*100)/100;
+				
             layer.confirm('您确定要买入'+xnb+"?</br>"+'价格:'+price+''+rmb+',数量:'+num+'</br> '+'订单总额:'+pay+rmb+'?', {
                 btn: ['确定','取消'], //按钮
                 closeBtn: 0,
                 btn2: function(index){
                     layer.close(index);
-                    trans_lock = 0;
+                    trans_lock = "";
                     return false;
                 }
             }, function(){
@@ -533,19 +533,18 @@
             var price = parseFloat($('#sell_price').val());
             var num = parseFloat($('#sell_num').val());
             var mum = $('#sell_mum').html();
-            if(rmb="zc"){
+            if(rmb="cny"){
                 rmb="元";
             }
-
-            var  pay =mum*(100*100 - sell_fee*100)/10000;
-
+            var  pay =mum/100*(100*100 - sell_fee*100)/100;
             layer.confirm('您确定要卖出'+xnb+"?</br>"+'价格:'+price+''+rmb+',数量:'+num+'</br> '+'订单总额:'+pay+rmb+'?', {
                 btn: ['确定','取消'], //按钮
                 closeBtn: 0,
                 btn2: function(index){
-                    layer.close(index);
+                    
                     trans_lock = 0;
                     return false;
+					layer.close(index);
                 }
             }, function(){
 
@@ -763,13 +762,13 @@
                         $('#entrust_over').hide();
                     }
                     if (data['usercoin']) {
-                        if (data['usercoin']['zc']) {
-                            $("#my_rmb").html(data['usercoin']['zc']);
+                        if (data['usercoin']['cny']) {
+                            $("#my_rmb").html(data['usercoin']['cny']);
                         } else {
                             $("#my_rmb").html('0.00');
                         }
-                        if (data['usercoin']['zcd']) {
-                            $("#my_rmbd").html(data['usercoin']['zcd']);
+                        if (data['usercoin']['cnyd']) {
+                            $("#my_rmbd").html(data['usercoin']['cnyd']);
                         } else {
                             $("#my_rmbd").html('0.00');
                         }
@@ -991,10 +990,10 @@
                 $('#sell_max').html(sellkenum);
             }
             if(buyprice !=null && buynum>0) {
-                $('#buy_mum').text(buymum.toFixed(4))
+                $('#buy_mum').text(buymum.toFixed(4)*1)
             }
             if(sell_price !=null && sell_num>0) {
-                $('.sell_mum').text(sellmum.toFixed(4))
+                $('.sell_mum').text(sellmum.toFixed(4)*1)
             }
 
         }).bind("paste", function () {

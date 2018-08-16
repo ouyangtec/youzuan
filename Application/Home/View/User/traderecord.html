@@ -29,8 +29,8 @@
             <a href="javascript:void(0)">卖出挂单</a>
             <a href="javascript:void(0)">已成交记录</a>
         </div>
-        <p align="center" style="padding-top: .28rem;font-size: 12px;color: red">(只显示近15天的几录)</p>
-        <div class="hot-tab-con">
+        <p align="center" style="padding-top: .28rem;font-size: 12px;color: red">(只显示近15天的记录)</p>
+        <div class="hot-tab-con traderecord-table">
             <table>
                 <thead>
                 <tr style="background-color: #ff7324;color: white">
@@ -75,7 +75,7 @@
                         <th>时间</th>
                         <th>个数</th>
                         <th>价格</th>
-                        <th>数量</th>
+                        <th>已成交</th>
                         <th class="last">操作</th>
                     </tr>
                 </thead>
@@ -102,8 +102,8 @@
                     <tr style="background-color: #ff7324;color: white">
                         <th class="first">市场</th>
                         <th >时间</th>
-                        <th>买方</th>
-                        <th>卖方</th>
+                        <!-- <th>买方</th>
+                        <th>卖方</th> -->
                         <th>个数</th>
                         <th>价格</th>
                       
@@ -115,8 +115,8 @@
                             <tr>
                                 <td class="first">{$vo.market}</td>
                                 <td class="first" width="100px">{$vo.addtime|date="Y-m-d H:i:s",###}</td>
-                                <td>ID{$vo.userid|NumToStr}</td>
-                                <td>ID{$vo.peerid|NumToStr}</td>
+                              <!--   <td>ID{$vo.userid|NumToStr}</td>
+                                <td>ID{$vo.peerid|NumToStr}</td> -->
                                 <td>{$vo.num|NumToStr}</td>
                                 <td>{$vo.price|NumToStr}</td>
                             </tr>
